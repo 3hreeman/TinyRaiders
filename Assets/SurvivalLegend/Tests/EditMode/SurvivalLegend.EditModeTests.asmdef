@@ -1,0 +1,6 @@
+{
+  "name": "SurvivalLegend.EditModeTests",
+  "references": ["SurvivalLegend.Runtime"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

@@ -1,0 +1,48 @@
+{
+  "source": "D:/Codex/Arcade/apps/web/src/games/survivor (current runtime)",
+  "slice": "archer-first-playable",
+  "characters": [
+    {"id":"swordsman","name":"검사","basic":"melee","weapon":"greatsword","stats":{"hp":180,"speed":164,"attackSpeed":1.3,"damage":25.6,"range":112,"healthRegen":5,"lifesteal":0,"armor":15},"skills":["sword-q","sword-w","sword-e","sword-r"],"attackDuration":0.38},
+    {"id":"archer","name":"궁수","basic":"projectile","weapon":"bow","stats":{"hp":120,"speed":216,"attackSpeed":1.7,"damage":17.6,"range":300,"healthRegen":3,"lifesteal":0,"armor":8},"skills":["bow-q","bow-w","bow-e","bow-r"],"attackDuration":0.24},
+    {"id":"mage","name":"마법사","basic":"chain","weapon":"staff","stats":{"hp":90,"speed":188,"attackSpeed":0.72,"damage":22.4,"range":330,"healthRegen":3,"lifesteal":0,"armor":0},"chainRatios":[1,0.75,0.5],"chainRange":160,"skills":["magic-q","magic-w","magic-e","magic-r"],"attackDuration":0.45}
+  ],
+  "skills": [
+    {"id":"sword-q","cooldown":6,"target":{"kind":"self","radius":112},"effects":[{"kind":"buff","untilHit":true,"nextAttack":{"multiplier":2,"splash":0.75,"radius":110,"charges":1}}]},
+    {"id":"sword-w","cooldown":12,"target":{"kind":"self","radius":65},"effects":[{"kind":"shield","duration":3,"maxHealthRatio":0.2,"reflect":0.3}]},
+    {"id":"sword-e","cooldown":12,"target":{"kind":"self","radius":145},"effects":[{"kind":"buff","duration":5,"moveSpeedMultiplier":1.15},{"kind":"zone","damageMultiplier":0.75,"shape":"circle","radius":145,"duration":5,"interval":0.25,"followCaster":true}]},
+    {"id":"sword-r","cooldown":0,"ultimate":true,"target":{"kind":"point","range":600,"radius":180,"coreRadius":60},"effects":[{"kind":"zone","damageMultiplier":10,"shape":"circle","radius":180,"coreRadius":60,"coreMultiplier":2,"duration":0.05,"interval":0.5,"delay":0.45}]},
+    {"id":"bow-q","cooldown":11,"ultimate":false,"target":{"kind":"self","radius":300},"effects":[{"kind":"buff","duration":5,"attackSpeedMultiplier":1.5,"attackRangeMultiplier":1,"extraTargets":2}]},
+    {"id":"bow-w","cooldown":7,"target":{"kind":"direction","range":600,"width":6,"spread":45},"effects":[{"kind":"projectile","damageMultiplier":0.75,"speed":700,"range":600,"radius":6,"count":7,"spread":45}]},
+    {"id":"bow-e","cooldown":8,"target":{"kind":"direction","range":850,"width":12},"effects":[{"kind":"projectile","damageMultiplier":1.5,"speed":760,"range":850,"radius":12,"pierce":true}]},
+    {"id":"bow-r","cooldown":0,"ultimate":true,"target":{"kind":"direction","range":580,"width":180},"effects":[{"kind":"rain","damageMultiplier":0.5,"count":50,"waves":2,"interval":1.1,"length":580,"width":360}]},
+    {"id":"magic-q","cooldown":6,"target":{"kind":"direction","range":700,"width":13},"effects":[{"kind":"projectile","damageMultiplier":1.5,"speed":480,"range":700,"radius":13,"penetrations":0,"explosionRadius":110}]},
+    {"id":"magic-w","cooldown":10,"target":{"kind":"self","radius":190},"effects":[{"kind":"area","damageMultiplier":1,"shape":"circle","radius":190,"rootSeconds":1}]},
+    {"id":"magic-e","cooldown":9,"target":{"kind":"point","range":280,"radius":120},"effects":[{"kind":"teleport"},{"kind":"area","damageMultiplier":1,"shape":"circle","radius":120}]},
+    {"id":"magic-r","cooldown":0,"ultimate":true,"target":{"kind":"self","radius":90},"effects":[{"kind":"buff","duration":10,"buffDamageMultiplier":2,"cooldownRateMultiplier":6,"incomingDamageMultiplier":1}]}
+  ],
+  "specials": [
+    {"id":"heal","cooldown":90,"kind":"heal","missingHealthRatio":0.2},
+    {"id":"haste","cooldown":60,"kind":"haste","duration":5,"speedMultiplier":1.5},
+    {"id":"barrier","cooldown":45,"kind":"shield","duration":5,"maxHealthRatio":0.25},
+    {"id":"blackhole","cooldown":90,"kind":"pull","duration":3,"range":450,"radius":180,"pullSpeed":240}
+  ],
+  "enemies": [
+    {"id":"chaser","hp":34,"speed":49,"radius":15,"damage":10,"attackRange":28,"windup":0.1,"patterns":["strike"]},
+    {"id":"shooter","hp":48,"speed":32,"radius":18,"damage":13,"attackRange":340,"windup":0.65,"patterns":["shot"]},
+    {"id":"caster","hp":48,"speed":32,"radius":18,"damage":18,"attackRange":420,"windup":0.3,"patterns":["hazard"]},
+    {"id":"elite","hp":1400,"speed":90,"radius":38,"damage":28,"attackRange":520,"windup":1.7,"patterns":["elite-cleave","elite-barrage","elite-rupture"]}
+  ],
+  "spawnStages": [[0,2.4,1,16],[30,1.9,1.25,28],[60,1.5,1.75,45],[120,1.15,2.5,75],[180,0.95,3.25,110],[300,0.8,4,160]],
+  "growth": {"player":{"damage":0.08,"speed":0.018,"attackSpeed":0.025,"maxHp":0.06,"armor":0},"enemy":{"hp":0.045,"damage":0.035,"speed":0.009}},
+  "timing": {"levelUp":0.85,"cardDeal":0.65,"eliteDeath":2.4,"death":1.2,"dodge":{"distance":180,"duration":0.2,"recharge":10,"capacity":2},"ultimate":{"maximum":100,"chargePerHit":5},"hitInvulnerability":0.55},
+  "normalAugments": [
+    ["attack-flat","damage","add",5,10,20],["armor-flat","armor","add",5,10,20],["attack-percent","damage","percent",0.05,0.075,0.1],["armor-percent","armor","percent",0.05,0.075,0.1],["stride","speed","percent",0.05,0.075,0.1],["speed","attackSpeed","percent",0.05,0.075,0.1],["critical","critChance","add",0.02,0.03,0.05],["haste-all","all","add",5,10,20],["haste-q","q","add",12,24,48],["haste-w","w","add",12,24,48],["haste-e","e","add",12,24,48],["health-regen","healthRegen","add",1,2,4],["lifesteal","lifesteal","add",0.02,0.03,0.05]
+  ],
+  "specialAugments": [
+    ["common-speed","stat","attackSpeed","percent",0.3],["common-power","stat","damage","percent",0.3],["common-combined","stat","damage+attackSpeed","percent",0.15],["common-critical","stat","critMultiplier","add",0.25],["common-elite","stat","eliteDamage","add",0.2],
+    ["sword-q-charges","swordsman","patch","sword-q","effects.0.nextAttack.charges","add",1],["sword-w-speed","swordsman","addEffect","sword-w","buff","duration",3,"moveSpeedMultiplier",1.2],["sword-e-interval","swordsman","patch","sword-e","effects.1.interval","multiply",0.9],["sword-r-area","swordsman","patch","sword-r","targeting.radius,targeting.coreRadius,effects.0.shape.radius,effects.0.shape.coreRadius","multiply",1.5],
+    ["bow-q-range","archer","patch","bow-q","effects.0.modifiers.attackRange","multiply",1.25],["bow-w-repeat","archer","repeat","bow-w","add",1],["bow-e-width","archer","patch","bow-e","effects.0.radius,targeting.width","multiply",1.25],["bow-r-wave","archer","patch","bow-r","effects.0.waves","add",1],
+    ["mage-basic-chain","mage","stat","chainTargets","add",1],["magic-q-pierce","mage","patch","magic-q","effects.0.penetrations","add",1],["magic-w-area","mage","patch","magic-w","targeting.radius,effects.0.shape.radius","multiply",1.25],["magic-e-range","mage","patch","magic-e","targeting.range","multiply",1.2],["magic-r-defense","mage","patch","magic-r","effects.0.modifiers.incomingDamage","multiply",0.75],
+    ["haste-amplify-all","haste","all","percent",0.2],["haste-amplify-q","haste","q","percent",0.45],["haste-amplify-w","haste","w","percent",0.45],["haste-amplify-e","haste","e","percent",0.45]
+  ]
+}

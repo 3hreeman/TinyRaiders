@@ -1,0 +1,6 @@
+{
+  "name": "SurvivalLegend.Editor",
+  "references": ["SurvivalLegend.Runtime"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}

@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: TinyRaiders
+  productName: Survival Legend
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -41,8 +41,8 @@ PlayerSettings:
     height: 1
   m_SplashScreenLogos: []
   m_VirtualRealitySplashScreen: {fileID: 0}
-  defaultScreenWidth: 1920
-  defaultScreenHeight: 1080
+  defaultScreenWidth: 1280
+  defaultScreenHeight: 900
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
   m_StereoRenderingPath: 0
@@ -149,7 +149,8 @@ PlayerSettings:
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
   bundleVersion: 1.0
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   xboxOneDisableKinectGpuReservation: 1
@@ -391,7 +392,13 @@ PlayerSettings:
       m_Height: 36
       m_Kind: 0
       m_SubKind: 
-  m_BuildTargetBatching: []
+  m_BuildTargetBatching:
+  - m_BuildTarget: Standalone
+    m_StaticBatching: 1
+    m_DynamicBatching: 0
+  - m_BuildTarget: WebGL
+    m_StaticBatching: 0
+    m_DynamicBatching: 0
   m_BuildTargetShaderSettings: []
   m_BuildTargetGraphicsJobs: []
   m_BuildTargetGraphicsJobMode: []
@@ -662,7 +669,7 @@ PlayerSettings:
   webGLTemplate: APPLICATION:Default
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
-  webGLCompressionFormat: 0
+  webGLCompressionFormat: 2
   webGLWasmArithmeticExceptions: 0
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
@@ -679,7 +686,26 @@ PlayerSettings:
   webGLCloseOnQuit: 0
   webWasm2023: 0
   webEnableSubmoduleStrippingCompatibility: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Android: UNITY_MCP_READY;UNITY_MCP_DEPS_4
+    EmbeddedLinux: UNITY_MCP_READY;UNITY_MCP_DEPS_4
+    GameCoreScarlett: UNITY_MCP_READY;UNITY_MCP_DEPS_4
+    GameCoreXboxOne: UNITY_MCP_READY;UNITY_MCP_DEPS_4
+    Kepler: UNITY_MCP_READY;UNITY_MCP_DEPS_4
+    LinuxHeadlessSimulation: UNITY_MCP_READY;UNITY_MCP_DEPS_4
+    Nintendo Switch: UNITY_MCP_READY;UNITY_MCP_DEPS_4
+    Nintendo Switch 2: UNITY_MCP_READY;UNITY_MCP_DEPS_4
+    PS4: UNITY_MCP_READY;UNITY_MCP_DEPS_4
+    PS5: UNITY_MCP_READY;UNITY_MCP_DEPS_4
+    QNX: UNITY_MCP_READY;UNITY_MCP_DEPS_4
+    Server: UNITY_MCP_READY;UNITY_MCP_DEPS_4
+    Standalone: UNITY_MCP_READY;UNITY_MCP_DEPS_4
+    VisionOS: UNITY_MCP_READY;UNITY_MCP_DEPS_4
+    WebGL: UNITY_MCP_READY;UNITY_MCP_DEPS_4
+    Windows Store Apps: UNITY_MCP_READY;UNITY_MCP_DEPS_4
+    XboxOne: UNITY_MCP_READY;UNITY_MCP_DEPS_4
+    iPhone: UNITY_MCP_READY;UNITY_MCP_DEPS_4
+    tvOS: UNITY_MCP_READY;UNITY_MCP_DEPS_4
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
@@ -779,11 +805,11 @@ PlayerSettings:
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
   enableDirectStorage: 0
-  cloudProjectId: 
+  cloudProjectId: 1b316406-4fc0-4a75-ad90-ce4752e219bb
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: TinyRaiders
+  organizationId: 3p
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
