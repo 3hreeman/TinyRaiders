@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5fbe03142b61544b887429368a3d0d3, type: 3}
+  m_Name: mage
+  m_EditorClassIdentifier: SurvivalLegend.Runtime::SurvivalLegend.Data.CharacterDefinition
+  Id: mage
+  DisplayName: "\uB9C8\uBC95\uC0AC"
+  Subtitle: "\uBC88\uAC1C\uC640 \uC6D0\uC18C\uC758 \uC5F0\uC1C4"
+  Traits: "\uCCB4\uB825 \uB0AE\uC74C \xB7 \uC774\uB3D9 \uBCF4\uD1B5 \xB7 \uACF5\uACA9
+    \uB290\uB9BC"
+  Color: '#c5a0ff'
+  BasicKind: chain
+  BasicWeapon: staff
+  Stats:
+    Hp: 90
+    Speed: 188
+    AttackSpeed: 0.72
+    Damage: 22.4
+    Range: 330
+    HealthRegen: 3
+    Lifesteal: 0
+    Armor: 0
+  Skills:
+  - {fileID: 11400000, guid: a52415ddd9d336242b7ff8eebf73092b, type: 2}
+  - {fileID: 11400000, guid: 1e5b174a17e317c498aeff5d889d3c14, type: 2}
+  - {fileID: 11400000, guid: c601a3c89c2dabc449ba52211914832b, type: 2}
+  - {fileID: 11400000, guid: 331314a3259198c4eae2a92fb5aa564a, type: 2}
+  AnimationStride: 12
+  AttackDuration: 0.45
+  ChainRange: 160
+  ChainRatios:
+  - 1
+  - 0.75
+  - 0.5

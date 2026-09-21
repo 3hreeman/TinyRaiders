@@ -27,7 +27,7 @@ namespace SurvivalLegend
             float progress=active?Mathf.Clamp01(1-p.AttackAnimation/Mathf.Max(.000001f,p.MotionDuration)):0;
             float facing=State.AimSlot>=0?Angle(cursor-p.Position):active?p.MotionAngle:p.Facing;
             float pulse=Mathf.Sin(Mathf.PI*progress);
-            float stride=p.Moving?Mathf.Sin(State.Time*Catalog.Characters[State.Character].AnimationStride):0;
+            float stride=p.Moving?Mathf.Sin(State.Time*Content.Characters[State.Character].AnimationStride):0;
             float bob=p.Moving?Mathf.Abs(stride)*1.5f:Mathf.Sin(State.Time*2)*.45f;
             float lift=bob-(motion=="pierce"?pulse*2:motion=="frost"?pulse*5:0);
             float reach=(motion=="draw"||motion=="focus"||motion=="volley"||motion=="pierce")?-pulse*9:0;
@@ -49,3 +49,4 @@ namespace SurvivalLegend
         }
     }
 }
+

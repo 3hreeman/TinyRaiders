@@ -1,6 +1,6 @@
 {
   "name": "SurvivalLegend.Runtime",
   "rootNamespace": "SurvivalLegend",
-  "references": ["Unity.InputSystem"],
+  "references": ["Unity.InputSystem", "Unity.ugui"],
   "autoReferenced": true
 }

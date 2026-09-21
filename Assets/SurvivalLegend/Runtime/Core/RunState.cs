@@ -40,6 +40,7 @@ namespace SurvivalLegend
         public float Facing = Mathf.PI / 4, Invulnerable, Shield, ShieldRemaining;
         public bool Moving;
         public float AttackAnimation, FocusRemaining, HasteRemaining;
+        public float HasteSpeedMultiplier=1;
         public string Motion = "idle";
         public float MotionDuration, MotionAngle;
         public float EliteDamage;
@@ -87,12 +88,14 @@ namespace SurvivalLegend
     }
     [Serializable] public sealed class EffectState
     {
+        public long Id, Tick;
         public Vector2 Position, End;
         public string Kind, Text, Color;
         public float Life, MaxLife, Radius;
         public bool Critical;
         public float Elevation;
         public bool FromStaff;
+        public EffectState Snapshot() => (EffectState)MemberwiseClone();
     }
     [Serializable] public sealed class SkillState
     {

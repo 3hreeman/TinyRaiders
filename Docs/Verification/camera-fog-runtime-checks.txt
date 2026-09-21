@@ -1,0 +1,1 @@
+PASS: free camera stays; focus snaps and follows; minimap click pans without move orders; all zooms clamp within map; explored fog persists, unseen enemies hidden; new run clears exploration.

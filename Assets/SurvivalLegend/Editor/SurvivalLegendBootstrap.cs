@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using System.Linq;
 using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
@@ -9,7 +10,7 @@ namespace SurvivalLegend.Editor
     public static class SurvivalLegendBootstrap
     {
         public const string ScenePath="Assets/SurvivalLegend/Scenes/SurvivalLegend.unity";
-        [MenuItem("Survival Legend/Create First Playable Scene")]
+        [MenuItem("Survival Legend/Legacy/Create First Playable Scene")]
         public static void CreateScene()
         {
             if(!EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo())return;
@@ -34,10 +35,11 @@ namespace SurvivalLegend.Editor
         public static void BuildWebGL()=>Build(BuildTarget.WebGL,"Builds/WebGL");
         static void Build(BuildTarget target,string path)
         {
-            if(!File.Exists(ScenePath))throw new InvalidOperationException("Create the first playable scene before building.");
+            var scenes=EditorBuildSettings.scenes.Where(scene=>scene.enabled).Select(scene=>scene.path).ToArray();
+            if(scenes.Length==0||scenes.Any(scene=>!File.Exists(scene)))throw new InvalidOperationException("Select an existing enabled scene in Build Settings before building.");
             if(!BuildPipeline.IsBuildTargetSupported(BuildPipeline.GetBuildTargetGroup(target),target))throw new InvalidOperationException("Install the Unity build support module for "+target+" in Unity Hub.");
             Directory.CreateDirectory(Path.GetDirectoryName(path));
-            var report=BuildPipeline.BuildPlayer(new BuildPlayerOptions{scenes=new[]{ScenePath},locationPathName=path,target=target,options=BuildOptions.None});
+            var report=BuildPipeline.BuildPlayer(new BuildPlayerOptions{scenes=scenes,locationPathName=path,target=target,options=BuildOptions.None});
             if(report.summary.result!=UnityEditor.Build.Reporting.BuildResult.Succeeded)throw new InvalidOperationException("Build failed: "+report.summary.result);
         }
     }

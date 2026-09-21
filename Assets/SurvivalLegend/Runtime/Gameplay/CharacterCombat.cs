@@ -1,6 +1,5 @@
 using System;
 using UnityEngine;
-using Catalog = SurvivalLegend.Data.SurvivalLegendCatalog;
 
 namespace SurvivalLegend
 {
@@ -16,13 +15,13 @@ namespace SurvivalLegend
         public float CooldownRecovery(int slot)
         {
             if(slot<0||slot>=State.Skills.Length)return 1;
-            return (1+State.Skills[slot].Haste/Catalog.Config.HastePointsPerDoubleRate)*BuffModifier(b=>b.CooldownRate);
+            return (1+State.Skills[slot].Haste/Content.Config.HastePointsPerDoubleRate)*BuffModifier(b=>b.CooldownRate);
         }
 
         void BasicAttack(EnemyState target)
         {
             var p=State.Player;
-            var character=Catalog.Characters[State.Character];
+            var character=Content.Characters[State.Character];
             float power=p.Damage*BuffModifier(b=>b.Damage);
             var empowered=State.Buffs.Find(b=>b.NextAttackCharges>0);
             if(empowered!=null||p.AttackAnimation<=0||p.Motion=="idle"||p.Motion=="swing"||p.Motion=="cleave"||p.Motion=="draw"||p.Motion=="cast")
@@ -47,10 +46,10 @@ namespace SurvivalLegend
                 var socket=WeaponSocket(target.Position,true);
                 DamageEnemy(target,power*character.ChainRatios[0]);
                 Lightning(p.Position+new Vector2(socket.x,socket.y),target.Position,socket.z,true);
-                var chain=new ChainState{Origin=target.Position,LastId=target.Id,Damage=power,Delay=Catalog.Combat.ChainDelay,Range=character.ChainRange};
+                var chain=new ChainState{Origin=target.Position,LastId=target.Id,Damage=power,Delay=Content.Combat.ChainDelay,Range=character.ChainRange};
                 chain.Hits.Add(target.Id);
                 for(int i=1;i<character.ChainRatios.Length;i++)chain.Ratios.Enqueue(character.ChainRatios[i]);
-                for(int i=0;i<p.ChainTargets;i++)chain.Ratios.Enqueue(Catalog.Combat.ExtraChainRatio);
+                for(int i=0;i<p.ChainTargets;i++)chain.Ratios.Enqueue(Content.Combat.ExtraChainRatio);
                 State.Chains.Add(chain);
                 return;
             }
@@ -79,7 +78,7 @@ namespace SurvivalLegend
                 if(target==null||chain.Ratios.Count==0){chain.Ratios.Clear();continue;}
                 DamageEnemy(target,chain.Damage*chain.Ratios.Dequeue());
                 Lightning(chain.Origin,target.Position,20,false);
-                chain.Origin=target.Position;chain.LastId=target.Id;chain.Hits.Add(target.Id);chain.Delay=Catalog.Combat.ChainDelay;
+                chain.Origin=target.Position;chain.LastId=target.Id;chain.Hits.Add(target.Id);chain.Delay=Content.Combat.ChainDelay;
                 if(!CombatActive)break;
             }
             State.Chains.RemoveAll(c=>c.Ratios.Count==0);
@@ -87,7 +86,7 @@ namespace SurvivalLegend
 
         void Lightning(Vector2 start,Vector2 end,float elevation,bool fromStaff)
         {
-            State.Effects.Add(new EffectState{Position=start,End=end,Kind="lightning",Life=.25f,MaxLife=.25f,Radius=5,Color="#53c7ff",Elevation=elevation,FromStaff=fromStaff});
+            RecordEffect(new EffectState{Position=start,End=end,Kind="lightning",Life=.25f,MaxLife=.25f,Radius=5,Color="#53c7ff",Elevation=elevation,FromStaff=fromStaff});
         }
 
         void DamageArea(Vector2 center,float radius,float damage,bool charge,float root=0,float coreRadius=0,float coreMultiplier=1)
@@ -103,3 +102,4 @@ namespace SurvivalLegend
         }
     }
 }
+

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d766bdcc84fbfc84a9629d4a08cc95c9, type: 3}
+  m_Name: bow-r
+  m_EditorClassIdentifier: SurvivalLegend.Runtime::SurvivalLegend.Data.SkillDefinition
+  Id: bow-r
+  DisplayName: "\uD654\uC0B4\uBE44"
+  Icon: "\u21E3"
+  Color: '#d8faaa'
+  Description: "\uAC00\uAE4C\uC6B4 \uACF3\uBD80\uD130 \uBA3C \uACF3\uAE4C\uC9C0 \uD654\uC0B4\uBE44
+    50\uBC1C\uC744 2\uD68C \uBC1C\uC0AC. \uD654\uC0B4\uB9C8\uB2E4 \uC801\uC911 \uC2DC
+    \uACF5\uACA9\uB825 50% \uD53C\uD574."
+  Animation: rain
+  Cooldown: 0
+  Ultimate: 1
+  Targeting:
+    Kind: 1
+    Range: 580
+    Radius: 0
+    Width: 180
+    Spread: 0
+    CoreRadius: 0
+  Effects:
+  - Kind: 2
+    DamageMultiplier: 0.5
+    Duration: 0
+    Interval: 1.1
+    Delay: 0
+    Speed: 0
+    Range: 0
+    Radius: 0
+    Count: 50
+    Waves: 2
+    Spread: 0
+    Length: 580
+    Width: 360
+    Pierce: 0
+    FollowCaster: 0
+    AttackSpeedMultiplier: 0
+    AttackRangeMultiplier: 0
+    ExtraTargets: 0
+    Shape: 0
+    CoreRadius: 0
+    CoreMultiplier: 0
+    RootSeconds: 0
+    ExplosionRadius: 0
+    Penetrations: 0
+    MaxHealthRatio: 0
+    Reflect: 0
+    UntilHit: 0
+    NextAttackMultiplier: 0
+    NextAttackSplash: 0
+    NextAttackRadius: 0
+    NextAttackCharges: 0
+    BuffDamageMultiplier: 0
+    MoveSpeedMultiplier: 0
+    CooldownRateMultiplier: 0
+    IncomingDamageMultiplier: 0

@@ -1,0 +1,2 @@
+using UnityEngine;
+namespace SurvivalLegend.Data { [CreateAssetMenu(fileName="Special",menuName="Survival Legend/Special")] public sealed class SpecialDefinition:ContentDefinition { public string DisplayName,Icon,Color="#ffffff",Description,Kind; public float Cooldown,Duration,MissingHealthRatio,SpeedMultiplier,MaxHealthRatio,Range,Radius,PullSpeed; public SpecialData ToData(){return new SpecialData(Id,DisplayName,Icon,Color,Cooldown,Description,Kind,Duration,MissingHealthRatio,SpeedMultiplier,MaxHealthRatio,Range,Radius,PullSpeed);} } }

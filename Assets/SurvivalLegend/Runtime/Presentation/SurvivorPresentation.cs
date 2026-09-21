@@ -45,6 +45,7 @@ namespace SurvivalLegend.Presentation
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
         private static void EnsurePresentation()
         {
+            if (FindAnyObjectByType<SurvivalLegend.UI.SurvivorCanvasUI>() != null) return;
             if (FindAnyObjectByType<SurvivorPresentation>() != null) return;
             SurvivorGame game = SurvivorGame.Instance ?? FindAnyObjectByType<SurvivorGame>();
             if (game != null) game.gameObject.AddComponent<SurvivorPresentation>();
@@ -393,7 +394,7 @@ namespace SurvivalLegend.Presentation
         private void DrawProjectile(ProjectileState shot)
         {
             Vector2 p = SurvivalLegendArt.WorldToView(shot.Position, shot.Elevation);
-            Vector2 d = new Vector2((shot.Velocity.x - shot.Velocity.y) * .39f, (shot.Velocity.x + shot.Velocity.y) * .155f).normalized;
+            Vector2 d = new Vector2(shot.Velocity.x * World.WorldProjection.HorizontalScale, shot.Velocity.y * World.WorldProjection.VerticalScale).normalized;
             Color color = shot.Hostile ? new Color(1f, .45f, .34f) : Parse(shot.Color, shot.Visual == "fireball" ? new Color(1f, .59f, .35f) : new Color(.88f, 1f, .79f));
             if (shot.Visual == "fireball")
             {

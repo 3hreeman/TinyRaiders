@@ -39,21 +39,20 @@ namespace SurvivalLegend
 
         public static Vector2 WorldToView(Vector2 point, float elevation = 0f)
         {
-            float x = point.x - 720f;
-            float y = point.y - 720f;
-            return new Vector2(640f + (x - y) * .39f, 260f + (x + y) * .155f - elevation);
+            return World.WorldProjection.WorldToView(point,elevation);
         }
 
         public static Vector2 ViewToWorld(Vector2 point)
         {
-            float difference = (point.x - 640f) / .39f;
-            float sum = (point.y - 260f) / .155f + 1440f;
-            return new Vector2((sum + difference) * .5f, (sum - difference) * .5f);
+            return World.WorldProjection.ViewToWorld(point);
         }
 
-        public static Texture2D Arena()
+        public static Texture2D Arena() => BakeArena("arena", true);
+        public static Texture2D ArenaGround() => BakeArena("arena-ground", false);
+
+        private static Texture2D BakeArena(string key, bool decorations)
         {
-            if (Cache.TryGetValue("arena", out Texture2D found)) return found;
+            if (Cache.TryGetValue(key, out Texture2D found)) return found;
             PixelCanvas c = new PixelCanvas(1280, 720, Hex("#080f14"));
             // The shallow plinth and diagonal 80-unit stonework are the original fixed arena.
             Vector2 top = WorldToView(new Vector2(0, 0));
@@ -79,18 +78,44 @@ namespace SurvivalLegend
                 }, tile);
             }
             c.Polyline(new[] { top, right, bottom, left, top }, Hex("#81b39a66"), 2);
-            // Central ritual rings are deliberately subtle, as in render.ts.
-            Vector2 center = WorldToView(new Vector2(720, 720));
+            if (decorations)
+            {
+                Vector2 center = WorldToView(new Vector2(720, 720));
+                c.Ellipse(center, 77, 31, Hex("#b3f78328"), 2);
+                c.Ellipse(center, 141, 56, Hex("#b3f78320"), 2);
+                c.Ellipse(center, 14, 6, Hex("#c2f38b45"), 2);
+                foreach (Vector2 corner in new[] { top, right, bottom, left })
+                {
+                    c.Ellipse(corner + Vector2.up * 2, 11, 5, Hex("#00000065"), 1);
+                    c.Line(corner, corner + Vector2.up * -17, Hex("#3f6760"), 5);
+                    c.Disc(corner + Vector2.up * -19, 3, Hex("#c5f7b2"));
+                }
+            }
+            return Cache[key] = c.Texture("Survival Legend Arena " + key);
+        }
+
+        public static Texture2D ArenaRitual()
+        {
+            const string key = "arena-ritual";
+            if (Cache.TryGetValue(key, out var found)) return found;
+            var c = new PixelCanvas(300, 120, Clear);
+            var center = new Vector2(150, 60);
             c.Ellipse(center, 77, 31, Hex("#b3f78328"), 2);
             c.Ellipse(center, 141, 56, Hex("#b3f78320"), 2);
             c.Ellipse(center, 14, 6, Hex("#c2f38b45"), 2);
-            foreach (Vector2 corner in new[] { top, right, bottom, left })
-            {
-                c.Ellipse(corner + Vector2.up * 2, 11, 5, Hex("#00000065"), 1);
-                c.Line(corner, corner + Vector2.up * -17, Hex("#3f6760"), 5);
-                c.Disc(corner + Vector2.up * -19, 3, Hex("#c5f7b2"));
-            }
-            return Cache["arena"] = c.Texture("Survival Legend Arena");
+            return Cache[key] = c.Texture("Arena ritual rings");
+        }
+
+        public static Texture2D ArenaCornerLamp()
+        {
+            const string key = "arena-corner-lamp";
+            if (Cache.TryGetValue(key, out var found)) return found;
+            var c = new PixelCanvas(32, 48, Clear);
+            var corner = new Vector2(16, 24);
+            c.Ellipse(corner + Vector2.up * 2, 11, 5, Hex("#00000065"), 1);
+            c.Line(corner, corner + Vector2.up * -17, Hex("#3f6760"), 5);
+            c.Disc(corner + Vector2.up * -19, 3, Hex("#c5f7b2"));
+            return Cache[key] = c.Texture("Arena corner lamp");
         }
 
         public static Texture2D Player(string hero, float facing, bool moving, bool attacking)
@@ -135,6 +160,10 @@ namespace SurvivalLegend
             if (Cache.TryGetValue(key, out Texture2D found)) return found;
             return Cache[key] = BakeEnemy(kind, direction, step, aiming);
         }
+
+        /// <summary>Deterministic frame access for editor atlas export; does not sample Time.time.</summary>
+        public static Texture2D EnemyFrame(string kind, int direction, int step, bool aiming)
+            => BakeEnemy(kind, direction & 7, step & 1, aiming);
 
         public static Texture2D Ring(Color color, int size = 128, int thickness = 3)
         {
@@ -350,7 +379,7 @@ namespace SurvivalLegend
 
         private static int Direction(float radians)
         {
-            int d = Mathf.RoundToInt(Mathf.Repeat(radians, Mathf.PI * 2f) / (Mathf.PI / 4f));
+            int d = Mathf.RoundToInt(Mathf.Repeat(World.WorldProjection.AtlasFacing(radians), Mathf.PI * 2f) / (Mathf.PI / 4f));
             return d & 7;
         }
 

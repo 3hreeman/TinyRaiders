@@ -1,0 +1,8 @@
+PASS HTTP + SHA256 index.html
+PASS HTTP + SHA256 Build/ArcadeWebGL.data.unityweb.57d4c92e788b41da.part0
+PASS HTTP + SHA256 Build/ArcadeWebGL.data.unityweb.57d4c92e788b41da.part1
+PASS HTTP + SHA256 Build/ArcadeWebGL.data.unityweb.57d4c92e788b41da.part2
+PASS HTTP + SHA256 Build/ArcadeWebGL.framework.js.unityweb
+PASS HTTP + SHA256 Build/ArcadeWebGL.loader.js
+PASS HTTP + SHA256 Build/ArcadeWebGL.wasm.unityweb
+PASS chunk reassembly + gzip data/wasm signatures

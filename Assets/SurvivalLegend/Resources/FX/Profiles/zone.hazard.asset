@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da359df8a65094949820a1534369a2ec, type: 3}
+  m_Name: zone.hazard
+  m_EditorClassIdentifier: SurvivalLegend.Runtime::SurvivalLegend.World.FxProfile
+  Id: zone.hazard
+  Prefab: {fileID: 1692432000598071100, guid: 1efba4b8d85c4e043943854e81132204, type: 3}
+  Tint: {r: 1, g: 0.25, b: 0.24, a: 1}
+  Duration: 0.5
+  Tail: 0.6
+  Scale: 1
+  ScaleByRadius: 1
+  FollowPlayer: 0
+  SustainWhileBuff: 0

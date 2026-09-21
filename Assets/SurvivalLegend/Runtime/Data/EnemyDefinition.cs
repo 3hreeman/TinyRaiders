@@ -1,0 +1,4 @@
+using System;
+using System.Collections.Generic;
+using UnityEngine;
+namespace SurvivalLegend.Data { [CreateAssetMenu(fileName="Enemy",menuName="Survival Legend/Enemy")] public sealed class EnemyDefinition:ContentDefinition { public string DisplayName,Category="melee";public float Hp,Speed,Radius,Damage,AttackRange,Windup;public SkillDefinition[] Patterns=Array.Empty<SkillDefinition>();public EnemyData ToData(){var ids=new string[Patterns==null?0:Patterns.Length];for(var i=0;i<ids.Length;i++)ids[i]=Patterns[i].Id;return new EnemyData(Id,DisplayName,Category,Hp,Speed,Radius,Damage,AttackRange,Windup,ids);}internal void Validate(IList<SkillDefinition> registry,List<string> errors){if(Patterns==null||Patterns.Length==0)errors.Add("Enemy '"+Id+"' needs at least one pattern skill.");else foreach(var p in Patterns)if(p==null||!registry.Contains(p))errors.Add("Enemy '"+Id+"' has a missing or unregistered pattern skill.");} } }

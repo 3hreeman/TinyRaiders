@@ -1,5 +1,7 @@
+using System;
 using UnityEngine;
-using UnityEngine.InputSystem;
+using SurvivalLegend.Data;
+using SurvivalLegend.World;
 
 namespace SurvivalLegend
 {
@@ -7,89 +9,92 @@ namespace SurvivalLegend
     public sealed class SurvivorGame : MonoBehaviour
     {
         public static SurvivorGame Instance {get;private set;}
+        [Header("Authored run configuration")]
+        public GameDatabase Database;
+        public ArenaMapView ArenaMap;
+        public GameContentSnapshot Content {get;private set;}
         public GameSimulation Simulation {get;private set;}
-        public RunState State => Simulation.State;
-        public Vector2 CursorWorld = new Vector2(720,720);
-        public bool PointerOverUi;
+        readonly RunState unavailableState=new RunState{Phase=RunPhase.Title};
+        public RunState State=>Simulation?.State??unavailableState;
+        public int Generation {get;private set;}
+        public string InitializationError {get;private set;}
+        public bool CanStart=>Content!=null&&string.IsNullOrEmpty(InitializationError);
+        public event Action<int> RunReset;
+        [NonSerialized] public Vector2 CursorWorld=new Vector2(720,720);
+        [NonSerialized] public bool PointerOverUi;
         public bool QuickCast;
-        public bool[] QuickCastSlots = new bool[6];
+        public bool[] QuickCastSlots=new bool[6];
         float accumulator;
-        float moveRepeat;
-        bool holdingMove;
-        void Awake() {Instance=this;Simulation=new GameSimulation();State.Phase=RunPhase.Title;}
-        void OnDestroy() {if(Instance==this)Instance=null;}
-        public void StartRun(uint seed=1,string specialD="heal",string specialF="haste",string character="archer") {Simulation=new GameSimulation(seed,specialD,specialF,character);accumulator=0;}
-        public void ReturnToTitle() {Simulation=new GameSimulation();State.Phase=RunPhase.Title;accumulator=0;}
-        public void TogglePause()=>Simulation.TogglePause();
-        public void ChooseAugment(int index)=>Simulation.ChooseAugment(index);
-        public void RerollAugment(int index)=>Simulation.RerollAugment(index);
-        public void CastSkill(int slot,Vector2 target)=>Simulation.CastSkill(slot,target);
-        public void UseSpecial(int slot,Vector2 target)=>Simulation.UseSpecial(slot,target);
-        public void Dodge(Vector2 target)=>Simulation.Dodge(target);
-        public void MoveTo(Vector2 point)=>Simulation.MoveTo(point);
-        public void AttackMove(Vector2 point)=>Simulation.AttackMove(point);
-        public void Attack(int id)=>Simulation.Attack(id);
-        public void Stop()=>Simulation.Stop();
+
+        void Awake(){Instance=this;Initialize();}
+        void OnDestroy(){if(Instance==this)Instance=null;}
+        public bool Initialize()
+        {
+            if(!LoadContent())return false;
+            ResetSimulation(1,null,null,null,RunPhase.Title);
+            return CanStart&&Simulation!=null;
+        }
+        bool LoadContent()
+        {
+            try
+            {
+                if(Database==null)throw new InvalidOperationException("Assign a GameDatabase asset on the Game Session before playing.");
+                var snapshot=Database.BuildSnapshot();
+                Content=ArenaMap!=null?ArenaMap.BuildSnapshot(snapshot):snapshot;
+                InitializationError=null;return true;
+            }
+            catch(Exception error)
+            {
+                Content=null;Simulation=null;InitializationError=error.Message;accumulator=0;
+                Generation++;RunReset?.Invoke(Generation);
+                Debug.LogError("Survival Legend cannot start: "+InitializationError,this);return false;
+            }
+        }
+        void ResetSimulation(uint seed,string specialD,string specialF,string character,RunPhase phase)
+        {
+            try
+            {
+                Simulation=new GameSimulation(seed,specialD,specialF,character,Content);
+                Simulation.State.Phase=phase;accumulator=0;Generation++;RunReset?.Invoke(Generation);
+            }
+            catch(Exception error)
+            {
+                Simulation=null;InitializationError=error.Message;accumulator=0;Generation++;RunReset?.Invoke(Generation);
+                Debug.LogError("Survival Legend cannot start: "+InitializationError,this);
+            }
+        }
+        public void StartRun(uint seed=1,string specialD=null,string specialF=null,string character=null)
+        {
+            if(LoadContent())ResetSimulation(seed,specialD,specialF,character,RunPhase.Playing);
+        }
+        public void ReturnToTitle(){if(LoadContent())ResetSimulation(1,null,null,null,RunPhase.Title);}
+        public void TogglePause()=>Simulation?.TogglePause();
+        public void ChooseAugment(int index)=>Simulation?.ChooseAugment(index);
+        public void RerollAugment(int index)=>Simulation?.RerollAugment(index);
+        public void CastSkill(int slot,Vector2 target)=>Simulation?.CastSkill(slot,target);
+        public void UseSpecial(int slot,Vector2 target)=>Simulation?.UseSpecial(slot,target);
+        public void Dodge(Vector2 target)=>Simulation?.Dodge(target);
+        public void MoveTo(Vector2 point)=>Simulation?.MoveTo(point);
+        public void AttackMove(Vector2 point)=>Simulation?.AttackMove(point);
+        public void Attack(int id)=>Simulation?.Attack(id);
+        public void Stop()=>Simulation?.Stop();
         void Update()
         {
-            ReadInput();
+            if(Simulation==null)return;
             accumulator+=Mathf.Min(Time.unscaledDeltaTime,.25f);
-            const float step=1f/60;
-            while(accumulator>=step) {Simulation.Step(step);accumulator-=step;}
-        }
-        void ReadInput()
-        {
-            var keyboard=Keyboard.current;var mouse=Mouse.current;
-            if(keyboard!=null)
-            {
-                if(keyboard.escapeKey.wasPressedThisFrame) {if(State.AimSlot>=0)State.AimSlot=-1;else TogglePause();}
-                if(keyboard.spaceKey.wasPressedThisFrame)TogglePause();
-                if(Simulation.CombatActive)
-                {
-                    if(keyboard.qKey.wasPressedThisFrame)RequestCast(0);
-                    if(keyboard.wKey.wasPressedThisFrame)RequestCast(1);
-                    if(keyboard.eKey.wasPressedThisFrame)RequestCast(2);
-                    if(keyboard.rKey.wasPressedThisFrame)RequestCast(3);
-                    if(keyboard.dKey.wasPressedThisFrame)RequestCast(4);
-                    if(keyboard.fKey.wasPressedThisFrame)RequestCast(5);
-                    if(keyboard.leftShiftKey.wasPressedThisFrame)Dodge(CursorWorld);
-                    if(keyboard.aKey.wasPressedThisFrame)State.AimSlot=6;
-                    if(keyboard.sKey.wasPressedThisFrame){Stop();State.AimSlot=-1;}
-                }
-            }
-            if(mouse==null||!Simulation.CombatActive||PointerOverUi){holdingMove=false;return;}
-            if(!mouse.rightButton.isPressed)holdingMove=false;
-            if(mouse.rightButton.wasPressedThisFrame)
-            {
-                holdingMove=false;
-                if(State.AimSlot>=0){State.AimSlot=-1;return;}
-                var target=EnemyAtCursor();
-                if(target!=null)Attack(target.Id);else{MoveTo(CursorWorld);holdingMove=true;moveRepeat=.25f;}
-            }
-            if(holdingMove){moveRepeat-=Time.unscaledDeltaTime;if(moveRepeat<=0){MoveTo(CursorWorld);moveRepeat=.25f;}}
-            if(mouse.leftButton.wasPressedThisFrame&&State.AimSlot>=0)
-            {
-                holdingMove=false;
-                int slot=State.AimSlot;State.AimSlot=-1;
-                if(slot==6){var enemy=EnemyAtCursor();if(enemy!=null)Attack(enemy.Id);else AttackMove(CursorWorld);}else if(slot>=4)UseSpecial(slot-4,CursorWorld);else CastSkill(slot,CursorWorld);
-            }
-        }
-        EnemyState EnemyAtCursor()
-        {
-            EnemyState target=null;float distance=float.MaxValue;
-            foreach(var enemy in State.Enemies){float d=Vector2.Distance(enemy.Position,CursorWorld);if(enemy.Hp>0&&d<enemy.Radius+20&&d<distance){target=enemy;distance=d;}}
-            return target;
+            float step=Content.Config.FixedStep;
+            while(accumulator>=step){Simulation.Step(step);accumulator-=step;}
         }
         public void RequestCast(int slot)
         {
-            if(!Simulation.CombatActive||State.DodgeRemaining>0||slot<0||slot>=6)return;
+            if(Simulation==null||!Simulation.CombatActive||State.DodgeRemaining>0||slot<0||slot>=6)return;
             State.AimSlot=-1;
-            if(slot<4&&(State.Skills[slot].Remaining>0||(slot==3&&(State.Ultimate<100||State.Buffs.Exists(b=>b.Id==State.Skills[slot].Id))))) {CastSkill(slot,CursorWorld);return;}
-            if(slot>=4&&State.Specials[slot-4].Remaining>0) {UseSpecial(slot-4,CursorWorld);return;}
-            bool self=slot<4?Data.SurvivalLegendCatalog.Skills[State.Skills[slot].Id].Targeting.Kind==Data.TargetKind.Self:State.Specials[slot-4].Id!="blackhole";
-            if(self||QuickCast||(QuickCastSlots!=null&&QuickCastSlots.Length>slot&&QuickCastSlots[slot])) {if(slot>=4)UseSpecial(slot-4,CursorWorld);else CastSkill(slot,CursorWorld);}
+            if(slot<4&&(State.Skills[slot].Remaining>0||(Content.Skills[State.Skills[slot].Id].Ultimate&&(State.Ultimate<Content.Config.UltimateMaximum||State.Buffs.Exists(b=>b.Id==State.Skills[slot].Id))))){CastSkill(slot,CursorWorld);return;}
+            if(slot>=4&&State.Specials[slot-4].Remaining>0){UseSpecial(slot-4,CursorWorld);return;}
+            bool self=slot<4?Content.Skills[State.Skills[slot].Id].Targeting.Kind==TargetKind.Self:Content.Specials[State.Specials[slot-4].Id].Kind!="pull";
+            if(self||QuickCast||(QuickCastSlots!=null&&QuickCastSlots.Length>slot&&QuickCastSlots[slot])){if(slot>=4)UseSpecial(slot-4,CursorWorld);else CastSkill(slot,CursorWorld);}
             else State.AimSlot=slot;
         }
-        void OnApplicationFocus(bool focus) {if(!focus&&Simulation!=null&&Simulation.CombatActive)TogglePause();}
+        void OnApplicationFocus(bool focus){if(!focus&&Simulation!=null&&Simulation.CombatActive)TogglePause();}
     }
 }

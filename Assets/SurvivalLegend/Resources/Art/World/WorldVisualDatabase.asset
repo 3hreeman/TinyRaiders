@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df2c08668c7adb84191cfac5ff816dce, type: 3}
+  m_Name: WorldVisualDatabase
+  m_EditorClassIdentifier: SurvivalLegend.Runtime::SurvivalLegend.World.WorldVisualDatabase
+  characters:
+  - id: swordsman
+    prefab: {fileID: 6417107204776203153, guid: 50f2cd0bea90a9e4192c4cf54bd919ac, type: 3}
+    spriteSet: {fileID: 11400000, guid: 468b233143d9f9e4087651a96335ae17, type: 2}
+    accent: {r: 0.91, g: 0.72, b: 0.44, a: 1}
+    displayScale: 0.55
+  - id: archer
+    prefab: {fileID: 467191061987165500, guid: 77968fc24323e464ebe34378a5c7846d, type: 3}
+    spriteSet: {fileID: 11400000, guid: 082a6cd6450fba34dbe8435da50479e0, type: 2}
+    accent: {r: 0.68, g: 0.95, b: 0.72, a: 1}
+    displayScale: 0.55
+  - id: mage
+    prefab: {fileID: 2776391574527044378, guid: 4df1160b64202214b8c197c8327988e2, type: 3}
+    spriteSet: {fileID: 11400000, guid: 5ad7e28b95c31574ba77febfebafb1d3, type: 2}
+    accent: {r: 0.65, g: 0.69, b: 1, a: 1}
+    displayScale: 0.55
+  enemies:
+  - id: chaser
+    prefab: {fileID: 2693303001533113360, guid: c1a7dbcc86423b14a929e2a68dcf47f8, type: 3}
+    spriteSet: {fileID: 11400000, guid: 02d49318b19065648b31419111d3f1f4, type: 2}
+    accent: {r: 0.93, g: 0.53, b: 0.52, a: 1}
+    displayScale: 0.58
+  - id: shooter
+    prefab: {fileID: 4019326033406612417, guid: d89b05dfe916e4c4ba217cc25a9f53b2, type: 3}
+    spriteSet: {fileID: 11400000, guid: e9e2f2b7bc170ec429021e5392c82f84, type: 2}
+    accent: {r: 1, g: 0.83, b: 0.55, a: 1}
+    displayScale: 0.58
+  - id: caster
+    prefab: {fileID: 6437668463101735947, guid: 48f9a74d12d407f43881c36b02af0f08, type: 3}
+    spriteSet: {fileID: 11400000, guid: e6042917ac3afe24d88c9e83deaa9284, type: 2}
+    accent: {r: 0.69, g: 0.53, b: 0.86, a: 1}
+    displayScale: 0.58
+  - id: elite
+    prefab: {fileID: 7760918485904992803, guid: 86b17915f39675e46a9322276c92d3b0, type: 3}
+    spriteSet: {fileID: 11400000, guid: b546b88a873eab747b680b2a5142a8fe, type: 2}
+    accent: {r: 1, g: 0.43, b: 0.35, a: 1}
+    displayScale: 0.58
+  characterFallback:
+    id: 
+    prefab: {fileID: 0}
+    spriteSet: {fileID: 0}
+    accent: {r: 1, g: 1, b: 1, a: 1}
+    displayScale: 0.55
+  enemyFallback:
+    id: 
+    prefab: {fileID: 0}
+    spriteSet: {fileID: 0}
+    accent: {r: 1, g: 1, b: 1, a: 1}
+    displayScale: 0.55
+  projectilePrefab: {fileID: 5921022159016560580, guid: e52607135095e394bb9a1e5569637f1b, type: 3}
+  zonePrefab: {fileID: 204712763176509745, guid: 4237fd733e632f64bacf4f2c0bedcd0a, type: 3}
+  effectPrefab: {fileID: 7810422080374258379, guid: 55ff7892eb975464fa998ce65c20dce5, type: 3}
+  aimMarkerPrefab: {fileID: 2631415181573487855, guid: 1bd9464585cbc8a4e9d806058b041efe, type: 3}

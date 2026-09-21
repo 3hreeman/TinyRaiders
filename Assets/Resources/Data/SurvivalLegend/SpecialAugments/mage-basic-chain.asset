@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1f4b21d484384b438ae88869c95af4f, type: 3}
+  m_Name: mage-basic-chain
+  m_EditorClassIdentifier: SurvivalLegend.Runtime::SurvivalLegend.Data.SpecialAugmentDefinition
+  Id: mage-basic-chain
+  Title: "\uD655\uC7A5\uB41C \uC5F0\uC1C4"
+  Description: "\uC77C\uBC18 \uACF5\uACA9 \uC801\uC911 \uB300\uC0C1 +1"
+  Icon: "\u2727"
+  Weight: 1
+  Character: {fileID: 11400000, guid: 5b316450085921c428541233511c438f, type: 2}
+  Effects:
+  - Kind: 0
+    StatOrScope: chainTargets
+    Path: 
+    Skill: {fileID: 0}
+    Operation: 0
+    Value: 1
+    InjectedEffect:
+      Kind: 0
+      DamageMultiplier: 0
+      Duration: 0
+      Interval: 0
+      Delay: 0
+      Speed: 0
+      Range: 0
+      Radius: 0
+      Count: 0
+      Waves: 0
+      Spread: 0
+      Length: 0
+      Width: 0
+      Pierce: 0
+      FollowCaster: 0
+      AttackSpeedMultiplier: 0
+      AttackRangeMultiplier: 0
+      ExtraTargets: 0
+      Shape: 0
+      CoreRadius: 0
+      CoreMultiplier: 0
+      RootSeconds: 0
+      ExplosionRadius: 0
+      Penetrations: 0
+      MaxHealthRatio: 0
+      Reflect: 0
+      UntilHit: 0
+      NextAttackMultiplier: 0
+      NextAttackSplash: 0
+      NextAttackRadius: 0
+      NextAttackCharges: 0
+      BuffDamageMultiplier: 0
+      MoveSpeedMultiplier: 0
+      CooldownRateMultiplier: 0
+      IncomingDamageMultiplier: 0

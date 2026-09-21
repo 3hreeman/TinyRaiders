@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 406c887f2a246194eae4ca702b22fa0a, type: 3}
+  m_Name: shooter
+  m_EditorClassIdentifier: SurvivalLegend.Runtime::SurvivalLegend.Data.EnemyDefinition
+  Id: shooter
+  DisplayName: "\uC0AC\uC218"
+  Category: ranged
+  Hp: 48
+  Speed: 32
+  Radius: 18
+  Damage: 13
+  AttackRange: 340
+  Windup: 0.65
+  Patterns:
+  - {fileID: 11400000, guid: 797982abe2b65814dbd1e5ae6ae5d5ba, type: 2}

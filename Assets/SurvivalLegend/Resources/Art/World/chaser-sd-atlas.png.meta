@@ -1,0 +1,1103 @@
+fileFormatVersion: 2
+guid: 064f1725f755cf2468acd2fb3d420252
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6199577069005695364
+    second: chaser-sd-atlas_0
+  - first:
+      213: -4083724541903622333
+    second: chaser-sd-atlas_1
+  - first:
+      213: -2169183724306510413
+    second: chaser-sd-atlas_2
+  - first:
+      213: 3893858370946540601
+    second: chaser-sd-atlas_3
+  - first:
+      213: -7113686878420233128
+    second: chaser-sd-atlas_4
+  - first:
+      213: 980421775652608405
+    second: chaser-sd-atlas_5
+  - first:
+      213: -7218283494146924801
+    second: chaser-sd-atlas_6
+  - first:
+      213: 4876759497615222318
+    second: chaser-sd-atlas_7
+  - first:
+      213: -8982221423052603804
+    second: chaser-sd-atlas_8
+  - first:
+      213: -8221024598088873742
+    second: chaser-sd-atlas_9
+  - first:
+      213: 1837159787630208219
+    second: chaser-sd-atlas_10
+  - first:
+      213: 4016296867942276822
+    second: chaser-sd-atlas_11
+  - first:
+      213: 8279806764385535907
+    second: chaser-sd-atlas_12
+  - first:
+      213: 2555340491259983829
+    second: chaser-sd-atlas_13
+  - first:
+      213: -4008715626702500969
+    second: chaser-sd-atlas_14
+  - first:
+      213: -9122664805977717742
+    second: chaser-sd-atlas_15
+  - first:
+      213: -1006571115692755001
+    second: chaser-sd-atlas_16
+  - first:
+      213: 3367377544971789505
+    second: chaser-sd-atlas_17
+  - first:
+      213: -5873717989037327214
+    second: chaser-sd-atlas_18
+  - first:
+      213: 650151854058756112
+    second: chaser-sd-atlas_19
+  - first:
+      213: 5559873258200856500
+    second: chaser-sd-atlas_20
+  - first:
+      213: 5031230651067233057
+    second: chaser-sd-atlas_21
+  - first:
+      213: 123874029558988246
+    second: chaser-sd-atlas_22
+  - first:
+      213: 4012024324805754300
+    second: chaser-sd-atlas_23
+  - first:
+      213: -5138752971754954786
+    second: chaser-sd-atlas_24
+  - first:
+      213: 546400992483142111
+    second: chaser-sd-atlas_25
+  - first:
+      213: 7231241288491635328
+    second: chaser-sd-atlas_26
+  - first:
+      213: -3310087826618487787
+    second: chaser-sd-atlas_27
+  - first:
+      213: -7526050714911283377
+    second: chaser-sd-atlas_28
+  - first:
+      213: -3741295939647401319
+    second: chaser-sd-atlas_29
+  - first:
+      213: -7412663055939835578
+    second: chaser-sd-atlas_30
+  - first:
+      213: 1566045656245470200
+    second: chaser-sd-atlas_31
+  - first:
+      213: -3800951375672336931
+    second: chaser-d0-f0
+  - first:
+      213: -970776149617415848
+    second: chaser-d0-f1
+  - first:
+      213: -2067645535790084774
+    second: chaser-d0-f2
+  - first:
+      213: -8028967187138925331
+    second: chaser-d0-f3
+  - first:
+      213: 8346238022000070503
+    second: chaser-d1-f0
+  - first:
+      213: 7860719658232943825
+    second: chaser-d1-f1
+  - first:
+      213: -2021018719724063651
+    second: chaser-d1-f2
+  - first:
+      213: 7481992812829355649
+    second: chaser-d1-f3
+  - first:
+      213: -5587670706921680602
+    second: chaser-d2-f0
+  - first:
+      213: 7988627842852801569
+    second: chaser-d2-f1
+  - first:
+      213: -987788230009200005
+    second: chaser-d2-f2
+  - first:
+      213: -8260098069653519680
+    second: chaser-d2-f3
+  - first:
+      213: -5803668580063817309
+    second: chaser-d3-f0
+  - first:
+      213: 2282508359800050231
+    second: chaser-d3-f1
+  - first:
+      213: 7118543283881613641
+    second: chaser-d3-f2
+  - first:
+      213: 826359923721899293
+    second: chaser-d3-f3
+  - first:
+      213: 7574906731946943328
+    second: chaser-d4-f0
+  - first:
+      213: -73697573811894548
+    second: chaser-d4-f1
+  - first:
+      213: -356761654120714940
+    second: chaser-d4-f2
+  - first:
+      213: -6696880073747573021
+    second: chaser-d4-f3
+  - first:
+      213: 8777041488820338377
+    second: chaser-d5-f0
+  - first:
+      213: 9013601943279665755
+    second: chaser-d5-f1
+  - first:
+      213: -7634221193868244690
+    second: chaser-d5-f2
+  - first:
+      213: -8264576522414306829
+    second: chaser-d5-f3
+  - first:
+      213: -8307245214098943018
+    second: chaser-d6-f0
+  - first:
+      213: 9158713391112450040
+    second: chaser-d6-f1
+  - first:
+      213: 3530381148626501203
+    second: chaser-d6-f2
+  - first:
+      213: -8594685460808487704
+    second: chaser-d6-f3
+  - first:
+      213: -2446527521448775414
+    second: chaser-d7-f0
+  - first:
+      213: -5750406017622038476
+    second: chaser-d7-f1
+  - first:
+      213: -2463849791501462333
+    second: chaser-d7-f2
+  - first:
+      213: 4470429956233193079
+    second: chaser-d7-f3
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chaser-d0-f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd9484bcde404bc0800000000000000
+      internalID: -3800951375672336931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaser-d0-f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 859e1ad3c3c1782f0800000000000000
+      internalID: -970776149617415848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaser-d0-f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d4fcd075f3e43e0800000000000000
+      internalID: -2067645535790084774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaser-d0-f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec2151f1e0639090800000000000000
+      internalID: -8028967187138925331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaser-d1-f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f4c20c24bc3d370800000000000000
+      internalID: 8346238022000070503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaser-d1-f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d497eb91e2e61d60800000000000000
+      internalID: 7860719658232943825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaser-d1-f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d54be66ae26e3f3e0800000000000000
+      internalID: -2021018719724063651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaser-d1-f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e28bc62d065d760800000000000000
+      internalID: 7481992812829355649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaser-d2-f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 621d318c81b9472b0800000000000000
+      internalID: -5587670706921680602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaser-d2-f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c490092be4dde60800000000000000
+      internalID: 7988627842852801569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaser-d2-f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b726dfc96dbaa42f0800000000000000
+      internalID: -987788230009200005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaser-d2-f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2896cc19c3e5d80800000000000000
+      internalID: -8260098069653519680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaser-d3-f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a15333fc2a357fa0800000000000000
+      internalID: -5803668580063817309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaser-d3-f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732ddbe82491daf10800000000000000
+      internalID: 2282508359800050231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaser-d3-f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 949910aa6652ac260800000000000000
+      internalID: 7118543283881613641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaser-d3-f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d001ee8f1d77b00800000000000000
+      internalID: 826359923721899293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaser-d4-f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 063a9640a897f1960800000000000000
+      internalID: 7574906731946943328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaser-d4-f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce64224727c2afef0800000000000000
+      internalID: -73697573811894548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaser-d4-f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d67a07a278c0bf0800000000000000
+      internalID: -356761654120714940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaser-d4-f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e652e4fd07ef03a0800000000000000
+      internalID: -6696880073747573021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaser-d5-f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce70083bb05ec970800000000000000
+      internalID: 8777041488820338377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaser-d5-f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5284f7163fb61d70800000000000000
+      internalID: 9013601943279665755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaser-d5-f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2989b2a54ccd0690800000000000000
+      internalID: -7634221193868244690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaser-d5-f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f94672c0735e4d80800000000000000
+      internalID: -8264576522414306829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaser-d6-f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d3919fcd7cb6bc80800000000000000
+      internalID: -8307245214098943018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaser-d6-f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ffeed4ed494a1f70800000000000000
+      internalID: 9158713391112450040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaser-d6-f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e3e9d23fe6ef030800000000000000
+      internalID: 3530381148626501203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaser-d6-f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ecab482c1b89b880800000000000000
+      internalID: -8594685460808487704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaser-d7-f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0134d67e203c0ed0800000000000000
+      internalID: -2446527521448775414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaser-d7-f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 438ae55a1347230b0800000000000000
+      internalID: -5750406017622038476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaser-d7-f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c492ad2ba5aecdd0800000000000000
+      internalID: -2463849791501462333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaser-d7-f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7766b8e1c582a0e30800000000000000
+      internalID: 4470429956233193079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      chaser-d0-f0: -3800951375672336931
+      chaser-d0-f1: -970776149617415848
+      chaser-d0-f2: -2067645535790084774
+      chaser-d0-f3: -8028967187138925331
+      chaser-d1-f0: 8346238022000070503
+      chaser-d1-f1: 7860719658232943825
+      chaser-d1-f2: -2021018719724063651
+      chaser-d1-f3: 7481992812829355649
+      chaser-d2-f0: -5587670706921680602
+      chaser-d2-f1: 7988627842852801569
+      chaser-d2-f2: -987788230009200005
+      chaser-d2-f3: -8260098069653519680
+      chaser-d3-f0: -5803668580063817309
+      chaser-d3-f1: 2282508359800050231
+      chaser-d3-f2: 7118543283881613641
+      chaser-d3-f3: 826359923721899293
+      chaser-d4-f0: 7574906731946943328
+      chaser-d4-f1: -73697573811894548
+      chaser-d4-f2: -356761654120714940
+      chaser-d4-f3: -6696880073747573021
+      chaser-d5-f0: 8777041488820338377
+      chaser-d5-f1: 9013601943279665755
+      chaser-d5-f2: -7634221193868244690
+      chaser-d5-f3: -8264576522414306829
+      chaser-d6-f0: -8307245214098943018
+      chaser-d6-f1: 9158713391112450040
+      chaser-d6-f2: 3530381148626501203
+      chaser-d6-f3: -8594685460808487704
+      chaser-d7-f0: -2446527521448775414
+      chaser-d7-f1: -5750406017622038476
+      chaser-d7-f2: -2463849791501462333
+      chaser-d7-f3: 4470429956233193079
+      chaser-sd-atlas_0: 6199577069005695364
+      chaser-sd-atlas_1: -4083724541903622333
+      chaser-sd-atlas_10: 1837159787630208219
+      chaser-sd-atlas_11: 4016296867942276822
+      chaser-sd-atlas_12: 8279806764385535907
+      chaser-sd-atlas_13: 2555340491259983829
+      chaser-sd-atlas_14: -4008715626702500969
+      chaser-sd-atlas_15: -9122664805977717742
+      chaser-sd-atlas_16: -1006571115692755001
+      chaser-sd-atlas_17: 3367377544971789505
+      chaser-sd-atlas_18: -5873717989037327214
+      chaser-sd-atlas_19: 650151854058756112
+      chaser-sd-atlas_2: -2169183724306510413
+      chaser-sd-atlas_20: 5559873258200856500
+      chaser-sd-atlas_21: 5031230651067233057
+      chaser-sd-atlas_22: 123874029558988246
+      chaser-sd-atlas_23: 4012024324805754300
+      chaser-sd-atlas_24: -5138752971754954786
+      chaser-sd-atlas_25: 546400992483142111
+      chaser-sd-atlas_26: 7231241288491635328
+      chaser-sd-atlas_27: -3310087826618487787
+      chaser-sd-atlas_28: -7526050714911283377
+      chaser-sd-atlas_29: -3741295939647401319
+      chaser-sd-atlas_3: 3893858370946540601
+      chaser-sd-atlas_30: -7412663055939835578
+      chaser-sd-atlas_31: 1566045656245470200
+      chaser-sd-atlas_4: -7113686878420233128
+      chaser-sd-atlas_5: 980421775652608405
+      chaser-sd-atlas_6: -7218283494146924801
+      chaser-sd-atlas_7: 4876759497615222318
+      chaser-sd-atlas_8: -8982221423052603804
+      chaser-sd-atlas_9: -8221024598088873742
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

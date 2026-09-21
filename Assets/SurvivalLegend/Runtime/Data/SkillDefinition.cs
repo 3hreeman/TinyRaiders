@@ -1,0 +1,3 @@
+using System;
+using UnityEngine;
+namespace SurvivalLegend.Data { [CreateAssetMenu(fileName="Skill",menuName="Survival Legend/Skill")] public sealed class SkillDefinition:ContentDefinition { public string DisplayName,Icon,Color="#ffffff",Description,Animation; public float Cooldown; public bool Ultimate; public TargetingDefinition Targeting=new TargetingDefinition(); public EffectDefinition[] Effects=Array.Empty<EffectDefinition>(); public SkillData ToData(){var effects=new EffectData[Effects==null?0:Effects.Length];for(var i=0;i<effects.Length;i++)effects[i]=Effects[i].ToData();return new SkillData(Id,DisplayName,Icon,Color,Cooldown,Ultimate,Description,Targeting.ToData(),Animation,effects);} } }

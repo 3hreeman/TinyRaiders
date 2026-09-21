@@ -1,6 +1,6 @@
 {
   "name": "SurvivalLegend.EditModeTests",
-  "references": ["SurvivalLegend.Runtime"],
+  "references": ["SurvivalLegend.Runtime", "Unity.ugui"],
   "includePlatforms": ["Editor"],
   "optionalUnityReferences": ["TestAssemblies"]
 }

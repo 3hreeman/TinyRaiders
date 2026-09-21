@@ -1,0 +1,1103 @@
+fileFormatVersion: 2
+guid: ec67fc792ad16a34b9747afcfea043ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2288070485552351236
+    second: shooter-sd-atlas_0
+  - first:
+      213: -2747115475209372379
+    second: shooter-sd-atlas_1
+  - first:
+      213: -5301864210337327341
+    second: shooter-sd-atlas_2
+  - first:
+      213: -3021594749434184361
+    second: shooter-sd-atlas_3
+  - first:
+      213: 2650489584178281411
+    second: shooter-sd-atlas_4
+  - first:
+      213: -316892419855173944
+    second: shooter-sd-atlas_5
+  - first:
+      213: 3816996602362137617
+    second: shooter-sd-atlas_6
+  - first:
+      213: 209007330865050653
+    second: shooter-sd-atlas_7
+  - first:
+      213: -2091515375320546717
+    second: shooter-sd-atlas_8
+  - first:
+      213: -4786005347186481330
+    second: shooter-sd-atlas_9
+  - first:
+      213: 728389411415941260
+    second: shooter-sd-atlas_10
+  - first:
+      213: 8341716419813599841
+    second: shooter-sd-atlas_11
+  - first:
+      213: -5886315744427104865
+    second: shooter-sd-atlas_12
+  - first:
+      213: 5524100496186784080
+    second: shooter-sd-atlas_13
+  - first:
+      213: 661259910700698183
+    second: shooter-sd-atlas_14
+  - first:
+      213: 2525233915764947499
+    second: shooter-sd-atlas_15
+  - first:
+      213: 6562619509596434326
+    second: shooter-sd-atlas_16
+  - first:
+      213: -2074421327893152835
+    second: shooter-sd-atlas_17
+  - first:
+      213: -2591499906762624564
+    second: shooter-sd-atlas_18
+  - first:
+      213: 8541511444538201571
+    second: shooter-sd-atlas_19
+  - first:
+      213: -1657424235077896938
+    second: shooter-sd-atlas_20
+  - first:
+      213: -5622569916295226520
+    second: shooter-sd-atlas_21
+  - first:
+      213: -3359780020203160290
+    second: shooter-sd-atlas_22
+  - first:
+      213: -929880504026200526
+    second: shooter-sd-atlas_23
+  - first:
+      213: -4957077919758498190
+    second: shooter-sd-atlas_24
+  - first:
+      213: 8354571712911633313
+    second: shooter-sd-atlas_25
+  - first:
+      213: 5686478717275932265
+    second: shooter-sd-atlas_26
+  - first:
+      213: -7246685735880734819
+    second: shooter-sd-atlas_27
+  - first:
+      213: 8844366016040999429
+    second: shooter-sd-atlas_28
+  - first:
+      213: -921288200593949377
+    second: shooter-sd-atlas_29
+  - first:
+      213: 2477256564301448577
+    second: shooter-sd-atlas_30
+  - first:
+      213: -2714693304217569800
+    second: shooter-sd-atlas_31
+  - first:
+      213: 8961888742085492058
+    second: shooter-d0-f0
+  - first:
+      213: 5008050956674157739
+    second: shooter-d0-f1
+  - first:
+      213: -9100828384215363376
+    second: shooter-d0-f2
+  - first:
+      213: -5384385154574265737
+    second: shooter-d0-f3
+  - first:
+      213: -2527850685867776102
+    second: shooter-d1-f0
+  - first:
+      213: -1164985325759487953
+    second: shooter-d1-f1
+  - first:
+      213: -5198490146510653882
+    second: shooter-d1-f2
+  - first:
+      213: 5746920214871755095
+    second: shooter-d1-f3
+  - first:
+      213: 7310689804618038659
+    second: shooter-d2-f0
+  - first:
+      213: 3174699808064046636
+    second: shooter-d2-f1
+  - first:
+      213: 1695406401661000136
+    second: shooter-d2-f2
+  - first:
+      213: -6932068569360991234
+    second: shooter-d2-f3
+  - first:
+      213: 125055680539340899
+    second: shooter-d3-f0
+  - first:
+      213: 2890411234487153136
+    second: shooter-d3-f1
+  - first:
+      213: 8229469341090906811
+    second: shooter-d3-f2
+  - first:
+      213: 1633183153974564456
+    second: shooter-d3-f3
+  - first:
+      213: 3559871635419181111
+    second: shooter-d4-f0
+  - first:
+      213: 1494546732370723453
+    second: shooter-d4-f1
+  - first:
+      213: 3305417769361402975
+    second: shooter-d4-f2
+  - first:
+      213: 7590224818769508154
+    second: shooter-d4-f3
+  - first:
+      213: -8778851822470707241
+    second: shooter-d5-f0
+  - first:
+      213: -4070888541888637546
+    second: shooter-d5-f1
+  - first:
+      213: -2256356080372794974
+    second: shooter-d5-f2
+  - first:
+      213: 4996583900906565265
+    second: shooter-d5-f3
+  - first:
+      213: 4706010245836966637
+    second: shooter-d6-f0
+  - first:
+      213: 138443116399807655
+    second: shooter-d6-f1
+  - first:
+      213: 4411733835742077168
+    second: shooter-d6-f2
+  - first:
+      213: 8741069680060924347
+    second: shooter-d6-f3
+  - first:
+      213: 6698688483795472791
+    second: shooter-d7-f0
+  - first:
+      213: 46164200811737696
+    second: shooter-d7-f1
+  - first:
+      213: -6110798027992243327
+    second: shooter-d7-f2
+  - first:
+      213: -2709823851450410283
+    second: shooter-d7-f3
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shooter-d0-f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5df39c24560f5c70800000000000000
+      internalID: 8961888742085492058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooter-d0-f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac4e91bfcb208540800000000000000
+      internalID: 5008050956674157739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooter-d0-f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d01d058dcc53b180800000000000000
+      internalID: -9100828384215363376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooter-d0-f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772d6b7ca32d645b0800000000000000
+      internalID: -5384385154574265737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooter-d1-f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97af9fb1354becd0800000000000000
+      internalID: -2527850685867776102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooter-d1-f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f202091c40425dfe0800000000000000
+      internalID: -1164985325759487953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooter-d1-f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6463dd821c04bd7b0800000000000000
+      internalID: -5198490146510653882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooter-d1-f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75941f7ac7921cf40800000000000000
+      internalID: 5746920214871755095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooter-d2-f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38df353c4a9c47560800000000000000
+      internalID: 7310689804618038659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooter-d2-f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c268828b7acce0c20800000000000000
+      internalID: 3174699808064046636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooter-d2-f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c95de0c32b478710800000000000000
+      internalID: 1695406401661000136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooter-d2-f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb76942d585ccf90800000000000000
+      internalID: -6932068569360991234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooter-d3-f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36031b79a794cb100800000000000000
+      internalID: 125055680539340899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooter-d3-f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1b76624bdcc1820800000000000000
+      internalID: 2890411234487153136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooter-d3-f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb201bd93c2f43270800000000000000
+      internalID: 8229469341090906811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooter-d3-f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8665ec1fc6b3aa610800000000000000
+      internalID: 1633183153974564456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooter-d4-f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73036233464376130800000000000000
+      internalID: 3559871635419181111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooter-d4-f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d728d2ba552bdb410800000000000000
+      internalID: 1494546732370723453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooter-d4-f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5cec09c2f33fdd20800000000000000
+      internalID: 3305417769361402975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooter-d4-f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a373c180245e55960800000000000000
+      internalID: 7590224818769508154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooter-d5-f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7c7d1a7c04b2680800000000000000
+      internalID: -8778851822470707241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooter-d5-f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695158c807c4187c0800000000000000
+      internalID: -4070888541888637546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooter-d5-f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9369e7910dfa0e0800000000000000
+      internalID: -2256356080372794974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooter-d5-f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19ea8f7b59e675540800000000000000
+      internalID: 4996583900906565265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooter-d6-f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea0674926b1f4140800000000000000
+      internalID: 4706010245836966637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooter-d6-f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7accb96e749dbe100800000000000000
+      internalID: 138443116399807655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooter-d6-f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f06afa9c80a93d30800000000000000
+      internalID: 4411733835742077168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooter-d6-f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb108f4df848e4970800000000000000
+      internalID: 8741069680060924347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooter-d7-f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79111a15fa586fc50800000000000000
+      internalID: 6698688483795472791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooter-d7-f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06239b6981204a000800000000000000
+      internalID: 46164200811737696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooter-d7-f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1836d57e195123ba0800000000000000
+      internalID: -6110798027992243327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shooter-d7-f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dada6a7095c46ad0800000000000000
+      internalID: -2709823851450410283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      shooter-d0-f0: 8961888742085492058
+      shooter-d0-f1: 5008050956674157739
+      shooter-d0-f2: -9100828384215363376
+      shooter-d0-f3: -5384385154574265737
+      shooter-d1-f0: -2527850685867776102
+      shooter-d1-f1: -1164985325759487953
+      shooter-d1-f2: -5198490146510653882
+      shooter-d1-f3: 5746920214871755095
+      shooter-d2-f0: 7310689804618038659
+      shooter-d2-f1: 3174699808064046636
+      shooter-d2-f2: 1695406401661000136
+      shooter-d2-f3: -6932068569360991234
+      shooter-d3-f0: 125055680539340899
+      shooter-d3-f1: 2890411234487153136
+      shooter-d3-f2: 8229469341090906811
+      shooter-d3-f3: 1633183153974564456
+      shooter-d4-f0: 3559871635419181111
+      shooter-d4-f1: 1494546732370723453
+      shooter-d4-f2: 3305417769361402975
+      shooter-d4-f3: 7590224818769508154
+      shooter-d5-f0: -8778851822470707241
+      shooter-d5-f1: -4070888541888637546
+      shooter-d5-f2: -2256356080372794974
+      shooter-d5-f3: 4996583900906565265
+      shooter-d6-f0: 4706010245836966637
+      shooter-d6-f1: 138443116399807655
+      shooter-d6-f2: 4411733835742077168
+      shooter-d6-f3: 8741069680060924347
+      shooter-d7-f0: 6698688483795472791
+      shooter-d7-f1: 46164200811737696
+      shooter-d7-f2: -6110798027992243327
+      shooter-d7-f3: -2709823851450410283
+      shooter-sd-atlas_0: 2288070485552351236
+      shooter-sd-atlas_1: -2747115475209372379
+      shooter-sd-atlas_10: 728389411415941260
+      shooter-sd-atlas_11: 8341716419813599841
+      shooter-sd-atlas_12: -5886315744427104865
+      shooter-sd-atlas_13: 5524100496186784080
+      shooter-sd-atlas_14: 661259910700698183
+      shooter-sd-atlas_15: 2525233915764947499
+      shooter-sd-atlas_16: 6562619509596434326
+      shooter-sd-atlas_17: -2074421327893152835
+      shooter-sd-atlas_18: -2591499906762624564
+      shooter-sd-atlas_19: 8541511444538201571
+      shooter-sd-atlas_2: -5301864210337327341
+      shooter-sd-atlas_20: -1657424235077896938
+      shooter-sd-atlas_21: -5622569916295226520
+      shooter-sd-atlas_22: -3359780020203160290
+      shooter-sd-atlas_23: -929880504026200526
+      shooter-sd-atlas_24: -4957077919758498190
+      shooter-sd-atlas_25: 8354571712911633313
+      shooter-sd-atlas_26: 5686478717275932265
+      shooter-sd-atlas_27: -7246685735880734819
+      shooter-sd-atlas_28: 8844366016040999429
+      shooter-sd-atlas_29: -921288200593949377
+      shooter-sd-atlas_3: -3021594749434184361
+      shooter-sd-atlas_30: 2477256564301448577
+      shooter-sd-atlas_31: -2714693304217569800
+      shooter-sd-atlas_4: 2650489584178281411
+      shooter-sd-atlas_5: -316892419855173944
+      shooter-sd-atlas_6: 3816996602362137617
+      shooter-sd-atlas_7: 209007330865050653
+      shooter-sd-atlas_8: -2091515375320546717
+      shooter-sd-atlas_9: -4786005347186481330
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

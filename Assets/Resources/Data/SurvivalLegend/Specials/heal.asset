@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc66be24ddd912e44b766a83c4e999ac, type: 3}
+  m_Name: heal
+  m_EditorClassIdentifier: SurvivalLegend.Runtime::SurvivalLegend.Data.SpecialDefinition
+  Id: heal
+  DisplayName: "\uD68C\uBCF5"
+  Icon: "\u2661"
+  Color: '#b3f783'
+  Description: "\uC989\uC2DC \uC783\uC740 \uCCB4\uB825\uC758 20% \uD68C\uBCF5 \xB7
+    90\uCD08"
+  Kind: heal
+  Cooldown: 90
+  Duration: 0
+  MissingHealthRatio: 0.2
+  SpeedMultiplier: 0
+  MaxHealthRatio: 0
+  Range: 0
+  Radius: 0
+  PullSpeed: 0

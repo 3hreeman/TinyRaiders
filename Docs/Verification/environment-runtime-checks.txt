@@ -1,0 +1,3 @@
+grassland: obstacles=12, enemies=100, routeError=0.000, detour=54.7, fields=13, 360 ticks including validation=1205ms
+desert: obstacles=12, enemies=100, routeError=0.000, detour=58.7, fields=13, 360 ticks including validation=1565ms
+cave: obstacles=12, enemies=100, routeError=0.000, detour=64.7, fields=13, 360 ticks including validation=1334ms

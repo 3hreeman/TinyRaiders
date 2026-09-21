@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/SurvivalLegend/Scenes/SurvivalLegendGameObjects.unity
+    guid: 3bfa69ddc1d1ea7448c23cd7a107aa8a
+  - enabled: 0
     path: Assets/SurvivalLegend/Scenes/SurvivalLegend.unity
     guid: 330f3c422a1f5d34dbe0a972f06198ba
   m_configObjects:

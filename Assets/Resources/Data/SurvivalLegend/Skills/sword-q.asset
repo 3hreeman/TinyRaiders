@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d766bdcc84fbfc84a9629d4a08cc95c9, type: 3}
+  m_Name: sword-q
+  m_EditorClassIdentifier: SurvivalLegend.Runtime::SurvivalLegend.Data.SkillDefinition
+  Id: sword-q
+  DisplayName: "\uAC15\uD654 \uC77C\uACA9"
+  Icon: "\u2726"
+  Color: '#f5ce87'
+  Description: "\uB2E4\uC74C \uAE30\uBCF8 \uACF5\uACA9 200%. \uB300\uC0C1 \uC8FC\uBCC0\uC5D0
+    \uACF5\uACA9\uB825 75% \uD53C\uD574."
+  Animation: empower
+  Cooldown: 6
+  Ultimate: 0
+  Targeting:
+    Kind: 0
+    Range: 0
+    Radius: 112
+    Width: 0
+    Spread: 0
+    CoreRadius: 0
+  Effects:
+  - Kind: 0
+    DamageMultiplier: 0
+    Duration: 0
+    Interval: 0
+    Delay: 0
+    Speed: 0
+    Range: 0
+    Radius: 0
+    Count: 0
+    Waves: 0
+    Spread: 0
+    Length: 0
+    Width: 0
+    Pierce: 0
+    FollowCaster: 0
+    AttackSpeedMultiplier: 0
+    AttackRangeMultiplier: 0
+    ExtraTargets: 0
+    Shape: 0
+    CoreRadius: 0
+    CoreMultiplier: 0
+    RootSeconds: 0
+    ExplosionRadius: 0
+    Penetrations: 0
+    MaxHealthRatio: 0
+    Reflect: 0
+    UntilHit: 1
+    NextAttackMultiplier: 2
+    NextAttackSplash: 0.75
+    NextAttackRadius: 110
+    NextAttackCharges: 1
+    BuffDamageMultiplier: 0
+    MoveSpeedMultiplier: 0
+    CooldownRateMultiplier: 0
+    IncomingDamageMultiplier: 0

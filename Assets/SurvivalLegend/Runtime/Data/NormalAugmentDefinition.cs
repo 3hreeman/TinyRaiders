@@ -1,0 +1,2 @@
+using UnityEngine;
+namespace SurvivalLegend.Data { [CreateAssetMenu(fileName="NormalAugment",menuName="Survival Legend/Normal Augment")] public sealed class NormalAugmentDefinition:ContentDefinition { public string Title,Icon,StatOrScope;public AugmentOperation Operation;public float Silver,Gold,Prism,Weight=1;public NormalAugmentData ToData(){return new NormalAugmentData(Id,Title,Icon,StatOrScope,Operation,Silver,Gold,Prism,Weight);} } }

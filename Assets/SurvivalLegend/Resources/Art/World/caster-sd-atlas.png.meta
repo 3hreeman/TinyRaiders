@@ -1,0 +1,1103 @@
+fileFormatVersion: 2
+guid: dcc51f54f1c0c014f90fc9e8d5783958
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7994132573413522366
+    second: caster-sd-atlas_0
+  - first:
+      213: 3485588158086010198
+    second: caster-sd-atlas_1
+  - first:
+      213: 5501161255272206297
+    second: caster-sd-atlas_2
+  - first:
+      213: 3956020759833703675
+    second: caster-sd-atlas_3
+  - first:
+      213: -8318509219950253771
+    second: caster-sd-atlas_4
+  - first:
+      213: 7276900117961210292
+    second: caster-sd-atlas_5
+  - first:
+      213: 4602924725796156878
+    second: caster-sd-atlas_6
+  - first:
+      213: 6626676602434496221
+    second: caster-sd-atlas_7
+  - first:
+      213: -3131353618455260259
+    second: caster-sd-atlas_8
+  - first:
+      213: 8647703083951111812
+    second: caster-sd-atlas_9
+  - first:
+      213: -8388383222724832171
+    second: caster-sd-atlas_10
+  - first:
+      213: -1003865935515234667
+    second: caster-sd-atlas_11
+  - first:
+      213: -5380091043415253650
+    second: caster-sd-atlas_12
+  - first:
+      213: -1767680181644179679
+    second: caster-sd-atlas_13
+  - first:
+      213: -411614215978342050
+    second: caster-sd-atlas_14
+  - first:
+      213: 28572173485201094
+    second: caster-sd-atlas_15
+  - first:
+      213: 6847260525845816418
+    second: caster-sd-atlas_16
+  - first:
+      213: 2706854105291380364
+    second: caster-sd-atlas_17
+  - first:
+      213: 4918549405023255793
+    second: caster-sd-atlas_18
+  - first:
+      213: 7578753168532859716
+    second: caster-sd-atlas_19
+  - first:
+      213: 7841755614289853138
+    second: caster-sd-atlas_20
+  - first:
+      213: -2504929780540934507
+    second: caster-sd-atlas_21
+  - first:
+      213: -1709026085760703469
+    second: caster-sd-atlas_22
+  - first:
+      213: -8016189835427549658
+    second: caster-sd-atlas_23
+  - first:
+      213: -8025124859444055065
+    second: caster-sd-atlas_24
+  - first:
+      213: 690629982150577153
+    second: caster-sd-atlas_25
+  - first:
+      213: 717653821805318063
+    second: caster-sd-atlas_26
+  - first:
+      213: 7287345919877260283
+    second: caster-sd-atlas_27
+  - first:
+      213: -884353959276319946
+    second: caster-sd-atlas_28
+  - first:
+      213: 5754354556160727002
+    second: caster-sd-atlas_29
+  - first:
+      213: 2149299218869836465
+    second: caster-sd-atlas_30
+  - first:
+      213: 3161621760385412765
+    second: caster-sd-atlas_31
+  - first:
+      213: -2599414175743969297
+    second: caster-d0-f0
+  - first:
+      213: 5877808014461073959
+    second: caster-d0-f1
+  - first:
+      213: 6106759802378808578
+    second: caster-d0-f2
+  - first:
+      213: -666265681314714950
+    second: caster-d0-f3
+  - first:
+      213: -6820513226029888922
+    second: caster-d1-f0
+  - first:
+      213: 6998992670611910172
+    second: caster-d1-f1
+  - first:
+      213: -3590956870819307963
+    second: caster-d1-f2
+  - first:
+      213: 200785949780220394
+    second: caster-d1-f3
+  - first:
+      213: -1083604851079872392
+    second: caster-d2-f0
+  - first:
+      213: -700020004858803864
+    second: caster-d2-f1
+  - first:
+      213: -4035464727601796742
+    second: caster-d2-f2
+  - first:
+      213: -2161004176613496749
+    second: caster-d2-f3
+  - first:
+      213: -2907199710009104625
+    second: caster-d3-f0
+  - first:
+      213: 8285361296356627736
+    second: caster-d3-f1
+  - first:
+      213: -8299707700958833574
+    second: caster-d3-f2
+  - first:
+      213: 2512665358152398836
+    second: caster-d3-f3
+  - first:
+      213: -2299877509185457244
+    second: caster-d4-f0
+  - first:
+      213: 8761653050294930789
+    second: caster-d4-f1
+  - first:
+      213: -3881327478506496766
+    second: caster-d4-f2
+  - first:
+      213: 8365988216048523593
+    second: caster-d4-f3
+  - first:
+      213: 5800710839275955121
+    second: caster-d5-f0
+  - first:
+      213: -7444167601814582141
+    second: caster-d5-f1
+  - first:
+      213: -4266963524554019452
+    second: caster-d5-f2
+  - first:
+      213: 2380629370245355139
+    second: caster-d5-f3
+  - first:
+      213: -1796012462118387572
+    second: caster-d6-f0
+  - first:
+      213: -7690777787807177011
+    second: caster-d6-f1
+  - first:
+      213: 3886613741398741522
+    second: caster-d6-f2
+  - first:
+      213: 3802873369093478654
+    second: caster-d6-f3
+  - first:
+      213: -6260557686360531822
+    second: caster-d7-f0
+  - first:
+      213: -6178471603233606020
+    second: caster-d7-f1
+  - first:
+      213: 7082285609094861488
+    second: caster-d7-f2
+  - first:
+      213: 6768931340556013736
+    second: caster-d7-f3
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: caster-d0-f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe77aa654960debd0800000000000000
+      internalID: -2599414175743969297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caster-d0-f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72a75e74f3b229150800000000000000
+      internalID: 5877808014461073959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caster-d0-f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d6c6d6fa19fb450800000000000000
+      internalID: 6106759802378808578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caster-d0-f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abae33394e2f0c6f0800000000000000
+      internalID: -666265681314714950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caster-d1-f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a82a88b5ba851a0800000000000000
+      internalID: -6820513226029888922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caster-d1-f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ea26d60ca612160800000000000000
+      internalID: 6998992670611910172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caster-d1-f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e111f60cb5a2ec0800000000000000
+      internalID: -3590956870819307963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caster-d1-f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae91a8ce1c559c200800000000000000
+      internalID: 200785949780220394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caster-d2-f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8708e7e012346f0f0800000000000000
+      internalID: -1083604851079872392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caster-d2-f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86949b2b3870946f0800000000000000
+      internalID: -700020004858803864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caster-d2-f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a792da706362ff7c0800000000000000
+      internalID: -4035464727601796742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caster-d2-f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35821de96229202e0800000000000000
+      internalID: -2161004176613496749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caster-d3-f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f07e9c9444d87a7d0800000000000000
+      internalID: -2907199710009104625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caster-d3-f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8155b1983348bf270800000000000000
+      internalID: 8285361296356627736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caster-d3-f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5456c8d1d381dc80800000000000000
+      internalID: -8299707700958833574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caster-d3-f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f77a10a4d7ced220800000000000000
+      internalID: 2512665358152398836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caster-d4-f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3371637913510e0800000000000000
+      internalID: -2299877509185457244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caster-d4-f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d0c0c2705a79970800000000000000
+      internalID: 8761653050294930789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caster-d4-f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d58a2f831c22ac0800000000000000
+      internalID: -3881327478506496766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caster-d4-f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9491da425f5f91470800000000000000
+      internalID: 8365988216048523593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caster-d5-f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b32dcb56c3408050800000000000000
+      internalID: 5800710839275955121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caster-d5-f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38cce5dc10101b890800000000000000
+      internalID: -7444167601814582141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caster-d5-f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48da8612843b8c4c0800000000000000
+      internalID: -4266963524554019452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caster-d5-f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38616539cc1b90120800000000000000
+      internalID: 2380629370245355139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caster-d6-f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80424f6e284317e0800000000000000
+      internalID: -1796012462118387572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caster-d6-f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6e947795ed44590800000000000000
+      internalID: -7690777787807177011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caster-d6-f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 212593b0b9600f530800000000000000
+      internalID: 3886613741398741522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caster-d6-f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef81c924e2586c430800000000000000
+      internalID: 3802873369093478654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caster-d7-f0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c93a044f70e19a0800000000000000
+      internalID: -6260557686360531822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caster-d7-f1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c763c62dfc8a14aa0800000000000000
+      internalID: -6178471603233606020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caster-d7-f2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b2d5f7ec35594260800000000000000
+      internalID: 7082285609094861488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caster-d7-f3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a099ded03310fd50800000000000000
+      internalID: 6768931340556013736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      caster-d0-f0: -2599414175743969297
+      caster-d0-f1: 5877808014461073959
+      caster-d0-f2: 6106759802378808578
+      caster-d0-f3: -666265681314714950
+      caster-d1-f0: -6820513226029888922
+      caster-d1-f1: 6998992670611910172
+      caster-d1-f2: -3590956870819307963
+      caster-d1-f3: 200785949780220394
+      caster-d2-f0: -1083604851079872392
+      caster-d2-f1: -700020004858803864
+      caster-d2-f2: -4035464727601796742
+      caster-d2-f3: -2161004176613496749
+      caster-d3-f0: -2907199710009104625
+      caster-d3-f1: 8285361296356627736
+      caster-d3-f2: -8299707700958833574
+      caster-d3-f3: 2512665358152398836
+      caster-d4-f0: -2299877509185457244
+      caster-d4-f1: 8761653050294930789
+      caster-d4-f2: -3881327478506496766
+      caster-d4-f3: 8365988216048523593
+      caster-d5-f0: 5800710839275955121
+      caster-d5-f1: -7444167601814582141
+      caster-d5-f2: -4266963524554019452
+      caster-d5-f3: 2380629370245355139
+      caster-d6-f0: -1796012462118387572
+      caster-d6-f1: -7690777787807177011
+      caster-d6-f2: 3886613741398741522
+      caster-d6-f3: 3802873369093478654
+      caster-d7-f0: -6260557686360531822
+      caster-d7-f1: -6178471603233606020
+      caster-d7-f2: 7082285609094861488
+      caster-d7-f3: 6768931340556013736
+      caster-sd-atlas_0: 7994132573413522366
+      caster-sd-atlas_1: 3485588158086010198
+      caster-sd-atlas_10: -8388383222724832171
+      caster-sd-atlas_11: -1003865935515234667
+      caster-sd-atlas_12: -5380091043415253650
+      caster-sd-atlas_13: -1767680181644179679
+      caster-sd-atlas_14: -411614215978342050
+      caster-sd-atlas_15: 28572173485201094
+      caster-sd-atlas_16: 6847260525845816418
+      caster-sd-atlas_17: 2706854105291380364
+      caster-sd-atlas_18: 4918549405023255793
+      caster-sd-atlas_19: 7578753168532859716
+      caster-sd-atlas_2: 5501161255272206297
+      caster-sd-atlas_20: 7841755614289853138
+      caster-sd-atlas_21: -2504929780540934507
+      caster-sd-atlas_22: -1709026085760703469
+      caster-sd-atlas_23: -8016189835427549658
+      caster-sd-atlas_24: -8025124859444055065
+      caster-sd-atlas_25: 690629982150577153
+      caster-sd-atlas_26: 717653821805318063
+      caster-sd-atlas_27: 7287345919877260283
+      caster-sd-atlas_28: -884353959276319946
+      caster-sd-atlas_29: 5754354556160727002
+      caster-sd-atlas_3: 3956020759833703675
+      caster-sd-atlas_30: 2149299218869836465
+      caster-sd-atlas_31: 3161621760385412765
+      caster-sd-atlas_4: -8318509219950253771
+      caster-sd-atlas_5: 7276900117961210292
+      caster-sd-atlas_6: 4602924725796156878
+      caster-sd-atlas_7: 6626676602434496221
+      caster-sd-atlas_8: -3131353618455260259
+      caster-sd-atlas_9: 8647703083951111812
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d766bdcc84fbfc84a9629d4a08cc95c9, type: 3}
+  m_Name: elite-rupture
+  m_EditorClassIdentifier: SurvivalLegend.Runtime::SurvivalLegend.Data.SkillDefinition
+  Id: elite-rupture
+  DisplayName: "\uB300\uC9C0 \uBD95\uAD34"
+  Icon: "\u25CE"
+  Color: '#ffb25c'
+  Description: "\uC9C0\uC815 \uC704\uCE58 \uBD95\uAD34"
+  Animation: slam
+  Cooldown: 3.5
+  Ultimate: 0
+  Targeting:
+    Kind: 2
+    Range: 600
+    Radius: 170
+    Width: 0
+    Spread: 0
+    CoreRadius: 0
+  Effects:
+  - Kind: 4
+    DamageMultiplier: 2.2
+    Duration: 0.05
+    Interval: 1
+    Delay: 1.2
+    Speed: 0
+    Range: 0
+    Radius: 170
+    Count: 0
+    Waves: 0
+    Spread: 0
+    Length: 0
+    Width: 0
+    Pierce: 0
+    FollowCaster: 0
+    AttackSpeedMultiplier: 0
+    AttackRangeMultiplier: 0
+    ExtraTargets: 0
+    Shape: 0
+    CoreRadius: 0
+    CoreMultiplier: 0
+    RootSeconds: 0
+    ExplosionRadius: 0
+    Penetrations: 0
+    MaxHealthRatio: 0
+    Reflect: 0
+    UntilHit: 0
+    NextAttackMultiplier: 0
+    NextAttackSplash: 0
+    NextAttackRadius: 0
+    NextAttackCharges: 0
+    BuffDamageMultiplier: 0
+    MoveSpeedMultiplier: 0
+    CooldownRateMultiplier: 0
+    IncomingDamageMultiplier: 0

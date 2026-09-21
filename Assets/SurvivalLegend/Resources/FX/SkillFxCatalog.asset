@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 337b471c9825ec241b0f22bc62a7dcf0, type: 3}
+  m_Name: SkillFxCatalog
+  m_EditorClassIdentifier: SurvivalLegend.Runtime::SurvivalLegend.World.SkillFxCatalog
+  Profiles:
+  - {fileID: 11400000, guid: b54d635fb4d729e40aa43cc9483f1e03, type: 2}
+  - {fileID: 11400000, guid: db136f788cd169e4f84e957b6281cd66, type: 2}
+  - {fileID: 11400000, guid: c4f3777914cfa154eb8313cbb98a5b5d, type: 2}
+  - {fileID: 11400000, guid: 57be1de47784919418172d7fd410e53e, type: 2}
+  - {fileID: 11400000, guid: c01e3e412ac983c48bb046be05a5f844, type: 2}
+  - {fileID: 11400000, guid: 4f577fb8d86001b419615bff86eb2daf, type: 2}
+  - {fileID: 11400000, guid: a69415ddaf685274fb1674c937ce97db, type: 2}
+  - {fileID: 11400000, guid: 1b5f7abb22b570547921098e5430f4ec, type: 2}
+  - {fileID: 11400000, guid: ba6c40dc612adbd4986df663560a3632, type: 2}
+  - {fileID: 11400000, guid: 729c63fe77c706e41b3ab2289265b2a1, type: 2}
+  - {fileID: 11400000, guid: 94c2d9fc3486f154b9848cfa89fe7dc0, type: 2}
+  - {fileID: 11400000, guid: 622774f5136f06a46bc737d9b2ae7922, type: 2}
+  - {fileID: 11400000, guid: 0513bd4c797397e40ba588f38f253c70, type: 2}
+  - {fileID: 11400000, guid: e87fd93863a73134aacd26b0ecc6d3c6, type: 2}
+  - {fileID: 11400000, guid: 26288a36361af46428a082d935a4bb8c, type: 2}
+  - {fileID: 11400000, guid: c4282fb4bc30bda45b5d66f958609ae6, type: 2}
+  - {fileID: 11400000, guid: 81e1b57e48fb4044095c8e17bf1da4ce, type: 2}
+  - {fileID: 11400000, guid: 1a1fe4a8acfb78b4ba698fb641868712, type: 2}
+  - {fileID: 11400000, guid: 517cbbc658790d449b8457fd0a5a4561, type: 2}
+  - {fileID: 11400000, guid: ab4733a248b268b4885d7ffcf0553083, type: 2}
+  - {fileID: 11400000, guid: a16f63494197c6345a764d197ccd3072, type: 2}
+  - {fileID: 11400000, guid: a20187862708bde4c9c134a53e1bc6d6, type: 2}
+  - {fileID: 11400000, guid: dda9c2ca2737e30498adca2cc4db0afc, type: 2}
+  - {fileID: 11400000, guid: d91a9665c4b26b24f90f96384acc24e2, type: 2}
+  - {fileID: 11400000, guid: 1b08c36a2b885904ab627955d69db69e, type: 2}
+  - {fileID: 11400000, guid: 2a19cde5524f5124897761ff69272936, type: 2}
+  - {fileID: 11400000, guid: 0ec1aa1881707ff44a587992f11fd6bb, type: 2}
+  - {fileID: 11400000, guid: 317f62faa3fd47342b555667559869f4, type: 2}
+  MaximumActiveEffects: 128

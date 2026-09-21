@@ -1,0 +1,1 @@
+scene=SurvivalLegendGameObjects dirty=False size=(3600.00, 3600.00) obstacles=60 missing=0 camera=True play=False

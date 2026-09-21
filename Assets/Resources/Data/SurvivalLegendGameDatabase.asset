@@ -1,0 +1,209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61325a6430e1247499bc5bf45d7b275b, type: 3}
+  m_Name: SurvivalLegendGameDatabase
+  m_EditorClassIdentifier: SurvivalLegend.Runtime::SurvivalLegend.Data.GameDatabase
+  Characters:
+  - {fileID: 11400000, guid: d1e2d28e12adf53469a01a737968040d, type: 2}
+  - {fileID: 11400000, guid: b047ca4ef23984147b3b79ffc8af262d, type: 2}
+  - {fileID: 11400000, guid: 5b316450085921c428541233511c438f, type: 2}
+  Skills:
+  - {fileID: 11400000, guid: 5c7f1f845ddcf2d4dbd3c0b013b37f02, type: 2}
+  - {fileID: 11400000, guid: 80d707aea69423f49af4768f8e5d3c92, type: 2}
+  - {fileID: 11400000, guid: 229ee00cbb5269441ab460e1d1f40473, type: 2}
+  - {fileID: 11400000, guid: 90ec3dc8a89c8d94492a1f4dc92fdcd5, type: 2}
+  - {fileID: 11400000, guid: 4899793a5ee8ef64fb9b564d85561bbd, type: 2}
+  - {fileID: 11400000, guid: 58a96e3183e4f1e4fac29cacf89651f3, type: 2}
+  - {fileID: 11400000, guid: 9d470139e4d210d4dbd1059f4d2c1a6d, type: 2}
+  - {fileID: 11400000, guid: da2efb4f2715ffd4faceb4068b47a5a4, type: 2}
+  - {fileID: 11400000, guid: a52415ddd9d336242b7ff8eebf73092b, type: 2}
+  - {fileID: 11400000, guid: 1e5b174a17e317c498aeff5d889d3c14, type: 2}
+  - {fileID: 11400000, guid: c601a3c89c2dabc449ba52211914832b, type: 2}
+  - {fileID: 11400000, guid: 331314a3259198c4eae2a92fb5aa564a, type: 2}
+  - {fileID: 11400000, guid: 7249d4b0422b7da49a6d629b9769c24c, type: 2}
+  - {fileID: 11400000, guid: 797982abe2b65814dbd1e5ae6ae5d5ba, type: 2}
+  - {fileID: 11400000, guid: a83d1505516e47e4fba864cea61909b0, type: 2}
+  - {fileID: 11400000, guid: f41617d7ff6ed4f4bad49e4b57674c73, type: 2}
+  - {fileID: 11400000, guid: 416598b6cb9e1674ca7899ec96f89776, type: 2}
+  - {fileID: 11400000, guid: 05835d37903a0594cb02305ab2bb852a, type: 2}
+  Specials:
+  - {fileID: 11400000, guid: 5094a2acf269cfd43b2be61a32ffca48, type: 2}
+  - {fileID: 11400000, guid: 8133ca068404b96418e5bd71baa1ed7d, type: 2}
+  - {fileID: 11400000, guid: d8f0577fd244b464cada0c9d0f836dcd, type: 2}
+  - {fileID: 11400000, guid: 262a0233abdbcc84f8bd626bdcc838c5, type: 2}
+  Enemies:
+  - {fileID: 11400000, guid: ac25c59a70eab544f84d39006f4786d2, type: 2}
+  - {fileID: 11400000, guid: 1512d648f6259d3409510bd421bf48e4, type: 2}
+  - {fileID: 11400000, guid: 0ff06c179c2ffbb4d8f9710ec9773fc7, type: 2}
+  - {fileID: 11400000, guid: 94360ed57ec6fbc47aaffef74ad7ea99, type: 2}
+  NormalAugments:
+  - {fileID: 11400000, guid: 5bdbdac6501432e44a3fd434d144b814, type: 2}
+  - {fileID: 11400000, guid: 3ace36c1212c67f45806e0444159ce30, type: 2}
+  - {fileID: 11400000, guid: 9f628678080a3a042b09040db87db05c, type: 2}
+  - {fileID: 11400000, guid: 1015165310dc6854280314812fd52e90, type: 2}
+  - {fileID: 11400000, guid: 81e1426f46c19ca408a49b671e181fba, type: 2}
+  - {fileID: 11400000, guid: f25564195339a7146a6f707467484828, type: 2}
+  - {fileID: 11400000, guid: ed7c57210736f1641b0e4b26a8a93ade, type: 2}
+  - {fileID: 11400000, guid: 47683d2f5b906524490d7691712990ec, type: 2}
+  - {fileID: 11400000, guid: 40cfbf6e11d73ff4889c654812a121b7, type: 2}
+  - {fileID: 11400000, guid: aa54e660ec748584dbd3ae8d5e3f7be0, type: 2}
+  - {fileID: 11400000, guid: c8b97e7e7f0a5964bba684bd229163c2, type: 2}
+  - {fileID: 11400000, guid: 012b7f1360ff17d478f982268b4be1e5, type: 2}
+  - {fileID: 11400000, guid: 98693832315f2ed4582fb59ddd631013, type: 2}
+  SpecialAugments:
+  - {fileID: 11400000, guid: ddac175b46a9d38439b5b4eda082069f, type: 2}
+  - {fileID: 11400000, guid: 3d0834564d54c7d45b70f20e89da45a5, type: 2}
+  - {fileID: 11400000, guid: b90c99e3188e3a54284a40a4956a31c1, type: 2}
+  - {fileID: 11400000, guid: db8a9826d27b49c4dbaadf28561476df, type: 2}
+  - {fileID: 11400000, guid: e2e7d861285cb8842b8ed7acb87499ea, type: 2}
+  - {fileID: 11400000, guid: 84eba589fe6445547bc33f372206ebab, type: 2}
+  - {fileID: 11400000, guid: 895b662daae6b7841a1807fcb3a94212, type: 2}
+  - {fileID: 11400000, guid: bd5730e56fc9ec04eb412f003f252816, type: 2}
+  - {fileID: 11400000, guid: 7e66f5513e9392247bf06acd2ba800b1, type: 2}
+  - {fileID: 11400000, guid: 51140b2d28133434f902f2a5ec3490e0, type: 2}
+  - {fileID: 11400000, guid: 6df1681327c889a4995ee3301bcedc19, type: 2}
+  - {fileID: 11400000, guid: 63616f6cb9190bd4e99191a27b934568, type: 2}
+  - {fileID: 11400000, guid: b8d0a669a7e02424ab04ed3d1492921a, type: 2}
+  - {fileID: 11400000, guid: c36575b9307c73f43874adf788dacf34, type: 2}
+  - {fileID: 11400000, guid: fdfa897bc19c9964f8f305b445d8401e, type: 2}
+  - {fileID: 11400000, guid: 61a7a4eebc2eda444bfd47ac90f6d7e3, type: 2}
+  - {fileID: 11400000, guid: 08e1cf3af6bacea4abbcc01bd1d8e5b2, type: 2}
+  - {fileID: 11400000, guid: b35a4cf1c6ecd2145be0e00f3de1dcc0, type: 2}
+  - {fileID: 11400000, guid: d20a2a0740653ef4187af52782e49c5d, type: 2}
+  - {fileID: 11400000, guid: 9593e2813290e804fa490ea07e24852e, type: 2}
+  - {fileID: 11400000, guid: bea0f005fdb2a0745a39584621ac15ab, type: 2}
+  - {fileID: 11400000, guid: d190a5c3a8a00594482d642ca2a813c2, type: 2}
+  SpawnStages:
+  - Time: 0
+    Interval: 2.4
+    Batch: 1
+    Cap: 16
+  - Time: 30
+    Interval: 1.9
+    Batch: 1.25
+    Cap: 28
+  - Time: 60
+    Interval: 1.5
+    Batch: 1.75
+    Cap: 45
+  - Time: 120
+    Interval: 1.15
+    Batch: 2.5
+    Cap: 75
+  - Time: 180
+    Interval: 0.95
+    Batch: 3.25
+    Cap: 110
+  - Time: 300
+    Interval: 0.8
+    Batch: 4
+    Cap: 160
+  NormalSpawnPool:
+  - Enemy: {fileID: 11400000, guid: ac25c59a70eab544f84d39006f4786d2, type: 2}
+    Weight: 1
+    StartTime: 0
+    RampSeconds: 0
+    FillRemainder: 1
+  - Enemy: {fileID: 11400000, guid: 1512d648f6259d3409510bd421bf48e4, type: 2}
+    Weight: 0.3
+    StartTime: 20
+    RampSeconds: 100
+    FillRemainder: 0
+  - Enemy: {fileID: 11400000, guid: 0ff06c179c2ffbb4d8f9710ec9773fc7, type: 2}
+    Weight: 0.2
+    StartTime: 60
+    RampSeconds: 120
+    FillRemainder: 0
+  EliteSpawnPool:
+  - Enemy: {fileID: 11400000, guid: 94360ed57ec6fbc47aaffef74ad7ea99, type: 2}
+    Weight: 1
+    StartTime: 0
+    RampSeconds: 0
+    FillRemainder: 1
+  Balance:
+    FixedStep: 0.016666668
+    ArenaWidth: 1440
+    ArenaHeight: 1440
+    ArenaInset: 24
+    ProjectileMargin: 30
+    PlayerRadius: 15
+    HitInvulnerability: 0.55
+    CritChance: 0.05
+    CritMultiplier: 1.5
+    DamageGrowth: 0.08
+    SpeedGrowth: 0.018
+    AttackSpeedGrowth: 0.025
+    HpGrowth: 0.06
+    EnemyHpGrowth: 0.045
+    EnemyDamageGrowth: 0.035
+    EnemySpeedGrowth: 0.009
+    EnemyInitialDelay: 1.5
+    EnemyDelayJitter: 1.5
+    EnemyEdgeInset: 18
+    EnemyCornerInset: 28
+    EnemySlowMultiplier: 0.35
+    SpawnInitialDelay: 1.2
+    SpawnJitterMin: 0.8
+    SpawnJitterWidth: 0.4
+    DodgeDistance: 180
+    DodgeDuration: 0.2
+    DodgeRecharge: 10
+    UltimateMaximum: 100
+    UltimateChargePerHit: 5
+    HastePointsPerDoubleRate: 100
+    LevelUpSeconds: 0.85
+    CardDealSeconds: 0.65
+    EliteDeathSeconds: 2.4
+    DeathSeconds: 1.2
+    EliteInitialDelay: 2
+    EliteAttackRange: 520
+    EliteWindup: 1.7
+    EliteCleaveWindup: 1.4
+    EliteMotion: 0.65
+    KillQuadratic: 0.5
+    KillLinear: 1.5
+    KillConstant: 1
+    ArmorConstant: 100
+    DodgeCapacity: 2
+    EliteEveryLevels: 5
+  Combat:
+    Sight: 480
+    PlayerShotSpeed: 620
+    PlayerShotRadius: 5
+    PlayerShotLifetime: 1.6
+    HostileShotSpeed: 205
+    HostileSpeedCap: 100
+    HostileSpeedGrowth: 0.3
+    HostileShotLifetime: 7
+    ChainDelay: 0.14
+    ChainRange: 160
+    ExtraChainRatio: 0.5
+    RecastDelay: 0.18
+    ZoneInterval: 0.5
+  Rain:
+    Columns: 5
+    JitterStart: 0.25
+    JitterWidth: 0.5
+    RowDelay: 0.075
+    FallTime: 0.45
+    HitRadius: 18
+  Rewards:
+    SilverChance: 0.55
+    GoldChance: 0.35
+    RerollPromotion: 0.15
+    Choices: 3
+  DefaultCharacter: {fileID: 11400000, guid: b047ca4ef23984147b3b79ffc8af262d, type: 2}
+  DefaultSpecialD: {fileID: 11400000, guid: 5094a2acf269cfd43b2be61a32ffca48, type: 2}
+  DefaultSpecialF: {fileID: 11400000, guid: 8133ca068404b96418e5bd71baa1ed7d, type: 2}
+  EliteOffsetX: 380
+  EliteOffsetY: -200
+  EliteInset: 60

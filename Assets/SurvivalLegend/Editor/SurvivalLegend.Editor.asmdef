@@ -1,6 +1,6 @@
 {
   "name": "SurvivalLegend.Editor",
-  "references": ["SurvivalLegend.Runtime"],
+  "references": ["SurvivalLegend.Runtime", "Unity.ugui", "Unity.InputSystem"],
   "includePlatforms": ["Editor"],
   "autoReferenced": true
 }

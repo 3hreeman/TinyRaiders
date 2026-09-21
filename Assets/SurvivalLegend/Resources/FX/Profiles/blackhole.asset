@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da359df8a65094949820a1534369a2ec, type: 3}
+  m_Name: blackhole
+  m_EditorClassIdentifier: SurvivalLegend.Runtime::SurvivalLegend.World.FxProfile
+  Id: blackhole
+  Prefab: {fileID: 541825109842273532, guid: 851a12c8b7200fd409c09205a430ab70, type: 3}
+  Tint: {r: 0.77254903, g: 0.627451, b: 1, a: 1}
+  Duration: 0.5
+  Tail: 0.6
+  Scale: 1
+  ScaleByRadius: 1
+  FollowPlayer: 0
+  SustainWhileBuff: 0

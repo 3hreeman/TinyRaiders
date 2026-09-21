@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5fbe03142b61544b887429368a3d0d3, type: 3}
+  m_Name: swordsman
+  m_EditorClassIdentifier: SurvivalLegend.Runtime::SurvivalLegend.Data.CharacterDefinition
+  Id: swordsman
+  DisplayName: "\uAC80\uC0AC"
+  Subtitle: "\uB300\uAC80\uC73C\uB85C \uBC84\uD2F0\uB294 \uC804\uC120"
+  Traits: "\uCCB4\uB825 \uB192\uC74C \xB7 \uC774\uB3D9 \uB290\uB9BC \xB7 \uACF5\uACA9
+    \uBCF4\uD1B5"
+  Color: '#f5ce87'
+  BasicKind: melee
+  BasicWeapon: greatsword
+  Stats:
+    Hp: 180
+    Speed: 164
+    AttackSpeed: 1.3
+    Damage: 25.6
+    Range: 112
+    HealthRegen: 5
+    Lifesteal: 0
+    Armor: 15
+  Skills:
+  - {fileID: 11400000, guid: 5c7f1f845ddcf2d4dbd3c0b013b37f02, type: 2}
+  - {fileID: 11400000, guid: 80d707aea69423f49af4768f8e5d3c92, type: 2}
+  - {fileID: 11400000, guid: 229ee00cbb5269441ab460e1d1f40473, type: 2}
+  - {fileID: 11400000, guid: 90ec3dc8a89c8d94492a1f4dc92fdcd5, type: 2}
+  AnimationStride: 10
+  AttackDuration: 0.38
+  ChainRange: 0
+  ChainRatios: []

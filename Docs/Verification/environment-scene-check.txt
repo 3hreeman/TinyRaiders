@@ -1,0 +1,1 @@
+scene=SurvivalLegendGameObjects dirty=False map=ArenaMap-grassland obstacles=12 missing=0 playing=False

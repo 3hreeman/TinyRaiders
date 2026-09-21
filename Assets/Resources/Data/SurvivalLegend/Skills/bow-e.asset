@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d766bdcc84fbfc84a9629d4a08cc95c9, type: 3}
+  m_Name: bow-e
+  m_EditorClassIdentifier: SurvivalLegend.Runtime::SurvivalLegend.Data.SkillDefinition
+  Id: bow-e
+  DisplayName: "\uAD00\uD1B5 \uD654\uC0B4"
+  Icon: "\u27B6"
+  Color: '#73ddff'
+  Description: "\uC77C\uC9C1\uC120\uC758 \uBAA8\uB4E0 \uC801\uC744 \uAD00\uD1B5\uD558\uBA70
+    \uACF5\uACA9\uB825 150% \uD53C\uD574."
+  Animation: pierce
+  Cooldown: 8
+  Ultimate: 0
+  Targeting:
+    Kind: 1
+    Range: 850
+    Radius: 0
+    Width: 12
+    Spread: 0
+    CoreRadius: 0
+  Effects:
+  - Kind: 1
+    DamageMultiplier: 1.5
+    Duration: 0
+    Interval: 0
+    Delay: 0
+    Speed: 760
+    Range: 850
+    Radius: 12
+    Count: 0
+    Waves: 0
+    Spread: 0
+    Length: 0
+    Width: 0
+    Pierce: 1
+    FollowCaster: 0
+    AttackSpeedMultiplier: 0
+    AttackRangeMultiplier: 0
+    ExtraTargets: 0
+    Shape: 0
+    CoreRadius: 0
+    CoreMultiplier: 0
+    RootSeconds: 0
+    ExplosionRadius: 0
+    Penetrations: 0
+    MaxHealthRatio: 0
+    Reflect: 0
+    UntilHit: 0
+    NextAttackMultiplier: 0
+    NextAttackSplash: 0
+    NextAttackRadius: 0
+    NextAttackCharges: 0
+    BuffDamageMultiplier: 0
+    MoveSpeedMultiplier: 0
+    CooldownRateMultiplier: 0
+    IncomingDamageMultiplier: 0

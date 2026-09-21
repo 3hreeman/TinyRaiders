@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d766bdcc84fbfc84a9629d4a08cc95c9, type: 3}
+  m_Name: sword-e
+  m_EditorClassIdentifier: SurvivalLegend.Runtime::SurvivalLegend.Data.SkillDefinition
+  Id: sword-e
+  DisplayName: "\uD68C\uC804 \uACF5\uACA9"
+  Icon: "\u27F3"
+  Color: '#f7dfac'
+  Description: "5\uCD08\uAC04 0.25\uCD08\uB9C8\uB2E4 \uC8FC\uBCC0\uC5D0 \uACF5\uACA9\uB825
+    75% \uD53C\uD574. \uC774\uB3D9 \uC18D\uB3C4 +15%."
+  Animation: spin
+  Cooldown: 12
+  Ultimate: 0
+  Targeting:
+    Kind: 0
+    Range: 0
+    Radius: 145
+    Width: 0
+    Spread: 0
+    CoreRadius: 0
+  Effects:
+  - Kind: 0
+    DamageMultiplier: 0
+    Duration: 5
+    Interval: 0
+    Delay: 0
+    Speed: 0
+    Range: 0
+    Radius: 0
+    Count: 0
+    Waves: 0
+    Spread: 0
+    Length: 0
+    Width: 0
+    Pierce: 0
+    FollowCaster: 0
+    AttackSpeedMultiplier: 0
+    AttackRangeMultiplier: 0
+    ExtraTargets: 0
+    Shape: 0
+    CoreRadius: 0
+    CoreMultiplier: 0
+    RootSeconds: 0
+    ExplosionRadius: 0
+    Penetrations: 0
+    MaxHealthRatio: 0
+    Reflect: 0
+    UntilHit: 0
+    NextAttackMultiplier: 0
+    NextAttackSplash: 0
+    NextAttackRadius: 0
+    NextAttackCharges: 0
+    BuffDamageMultiplier: 0
+    MoveSpeedMultiplier: 1.15
+    CooldownRateMultiplier: 0
+    IncomingDamageMultiplier: 0
+  - Kind: 4
+    DamageMultiplier: 0.75
+    Duration: 5
+    Interval: 0.25
+    Delay: 0
+    Speed: 0
+    Range: 0
+    Radius: 145
+    Count: 0
+    Waves: 0
+    Spread: 0
+    Length: 0
+    Width: 0
+    Pierce: 0
+    FollowCaster: 1
+    AttackSpeedMultiplier: 0
+    AttackRangeMultiplier: 0
+    ExtraTargets: 0
+    Shape: 1
+    CoreRadius: 0
+    CoreMultiplier: 0
+    RootSeconds: 0
+    ExplosionRadius: 0
+    Penetrations: 0
+    MaxHealthRatio: 0
+    Reflect: 0
+    UntilHit: 0
+    NextAttackMultiplier: 0
+    NextAttackSplash: 0
+    NextAttackRadius: 0
+    NextAttackCharges: 0
+    BuffDamageMultiplier: 0
+    MoveSpeedMultiplier: 0
+    CooldownRateMultiplier: 0
+    IncomingDamageMultiplier: 0

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1f4b21d484384b438ae88869c95af4f, type: 3}
+  m_Name: bow-r-wave
+  m_EditorClassIdentifier: SurvivalLegend.Runtime::SurvivalLegend.Data.SpecialAugmentDefinition
+  Id: bow-r-wave
+  Title: "\uB05D\uC5C6\uB294 \uD654\uC0B4\uBE44"
+  Description: "R \uBC1C\uB3D9 \uD69F\uC218 +1 (50\uBC1C)"
+  Icon: "\u27B6"
+  Weight: 1
+  Character: {fileID: 11400000, guid: b047ca4ef23984147b3b79ffc8af262d, type: 2}
+  Effects:
+  - Kind: 2
+    StatOrScope: 
+    Path: effects.0.waves
+    Skill: {fileID: 11400000, guid: da2efb4f2715ffd4faceb4068b47a5a4, type: 2}
+    Operation: 0
+    Value: 1
+    InjectedEffect:
+      Kind: 0
+      DamageMultiplier: 0
+      Duration: 0
+      Interval: 0
+      Delay: 0
+      Speed: 0
+      Range: 0
+      Radius: 0
+      Count: 0
+      Waves: 0
+      Spread: 0
+      Length: 0
+      Width: 0
+      Pierce: 0
+      FollowCaster: 0
+      AttackSpeedMultiplier: 0
+      AttackRangeMultiplier: 0
+      ExtraTargets: 0
+      Shape: 0
+      CoreRadius: 0
+      CoreMultiplier: 0
+      RootSeconds: 0
+      ExplosionRadius: 0
+      Penetrations: 0
+      MaxHealthRatio: 0
+      Reflect: 0
+      UntilHit: 0
+      NextAttackMultiplier: 0
+      NextAttackSplash: 0
+      NextAttackRadius: 0
+      NextAttackCharges: 0
+      BuffDamageMultiplier: 0
+      MoveSpeedMultiplier: 0
+      CooldownRateMultiplier: 0
+      IncomingDamageMultiplier: 0

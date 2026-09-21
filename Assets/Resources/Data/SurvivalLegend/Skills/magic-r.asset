@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d766bdcc84fbfc84a9629d4a08cc95c9, type: 3}
+  m_Name: magic-r
+  m_EditorClassIdentifier: SurvivalLegend.Runtime::SurvivalLegend.Data.SkillDefinition
+  Id: magic-r
+  DisplayName: "\uBE44\uC804 \uACFC\uBD80\uD558"
+  Icon: "\u273A"
+  Color: '#e6c6ff'
+  Description: "10\uCD08\uAC04 \uBAA8\uB4E0 \uC2A4\uD0AC \uCFE8\uD0C0\uC784 \uD68C\uBCF5
+    \uC18D\uB3C4 6\uBC30, \uC8FC\uB294 \uD53C\uD574 2\uBC30."
+  Animation: overload
+  Cooldown: 0
+  Ultimate: 1
+  Targeting:
+    Kind: 0
+    Range: 0
+    Radius: 90
+    Width: 0
+    Spread: 0
+    CoreRadius: 0
+  Effects:
+  - Kind: 0
+    DamageMultiplier: 0
+    Duration: 10
+    Interval: 0
+    Delay: 0
+    Speed: 0
+    Range: 0
+    Radius: 0
+    Count: 0
+    Waves: 0
+    Spread: 0
+    Length: 0
+    Width: 0
+    Pierce: 0
+    FollowCaster: 0
+    AttackSpeedMultiplier: 0
+    AttackRangeMultiplier: 0
+    ExtraTargets: 0
+    Shape: 0
+    CoreRadius: 0
+    CoreMultiplier: 0
+    RootSeconds: 0
+    ExplosionRadius: 0
+    Penetrations: 0
+    MaxHealthRatio: 0
+    Reflect: 0
+    UntilHit: 0
+    NextAttackMultiplier: 0
+    NextAttackSplash: 0
+    NextAttackRadius: 0
+    NextAttackCharges: 0
+    BuffDamageMultiplier: 2
+    MoveSpeedMultiplier: 0
+    CooldownRateMultiplier: 6
+    IncomingDamageMultiplier: 1

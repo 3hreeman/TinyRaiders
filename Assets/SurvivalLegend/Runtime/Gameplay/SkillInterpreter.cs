@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using SurvivalLegend.Data;
-using Catalog = SurvivalLegend.Data.SurvivalLegendCatalog;
 
 namespace SurvivalLegend
 {
@@ -18,7 +17,7 @@ namespace SurvivalLegend
         public TargetingData GetSkillTargeting(int slot)
         {
             if(slot<0||slot>=State.Skills.Length)throw new ArgumentOutOfRangeException(nameof(slot));
-            var skill=State.Skills[slot];var target=Catalog.Skills[skill.Id].Targeting;
+            var skill=State.Skills[slot];var target=Content.Skills[skill.Id].Targeting;
             return new TargetingData(target.Kind,
                 Patched(skill,"targeting.range",target.Range),
                 Patched(skill,"targeting.radius",target.Radius*skill.AreaMultiplier),
@@ -42,7 +41,7 @@ namespace SurvivalLegend
 
         void ExecuteSkill(int slot,Vector2 cursor)
         {
-            var p=State.Player;var skill=State.Skills[slot];var definition=Catalog.Skills[skill.Id];var targeting=GetSkillTargeting(slot);
+            var p=State.Player;var skill=State.Skills[slot];var definition=Content.Skills[skill.Id];var targeting=GetSkillTargeting(slot);
             Vector2 delta=cursor-p.Position;float angle=delta.sqrMagnitude<.0001f?p.Facing:Angle(delta);
             Vector2 center=targeting.Kind==TargetKind.Point?ClampWorld(p.Position+Vector2.ClampMagnitude(delta,targeting.Range)):p.Position;
             float power=skill.DamageMultiplier;
@@ -70,7 +69,7 @@ namespace SurvivalLegend
                         NextAttackMultiplier=Value("nextAttack.multiplier",part.NextAttackMultiplier),NextAttackSplash=Value("nextAttack.splash",part.NextAttackSplash),
                         NextAttackRadius=Value("nextAttack.radius",part.NextAttackRadius),NextAttackCharges=(int)Value("nextAttack.charges",part.NextAttackCharges)
                     };
-                    State.Buffs.Add(buff);if(skill.Id=="bow-q")p.FocusRemaining=buff.Remaining;
+                    State.Buffs.Add(buff);if(buff.ExtraTargets>0)p.FocusRemaining=buff.Remaining;
                     Effect(p.Position,"ring",.4f,targeting.Kind==TargetKind.Self?targeting.Radius:65,definition.Color);
                 }
                 else if(part.Kind==DeliveryKind.Shield)
@@ -81,7 +80,7 @@ namespace SurvivalLegend
                 }
                 else if(part.Kind==DeliveryKind.Teleport)
                 {
-                    Effect(p.Position,"ring",.4f,65,definition.Color);p.Position=center;Stop();Effect(p.Position,"ring",.4f,120,definition.Color);
+                    Effect(p.Position,"ring",.4f,65,definition.Color);MovePlayerForced(center);center=p.Position;Stop();Effect(p.Position,"ring",.4f,120,definition.Color);
                 }
                 else if(part.Kind==DeliveryKind.Area)
                 {
@@ -90,7 +89,7 @@ namespace SurvivalLegend
                 }
                 else if(part.Kind==DeliveryKind.Projectile)
                 {
-                    bool bow=Catalog.Characters[State.Character].BasicWeapon=="bow";
+                    bool bow=Content.Characters[State.Character].BasicWeapon=="bow";
                     Vector3 socket=bow?ArrowSocket(cursor):Vector3.zero;
                     Vector2 offset=new Vector2(socket.x,socket.y),origin=p.Position+offset;
                     float travel=Mathf.Max(1,Value("range",part.Range)-offset.magnitude),speed=Value("speed",part.Speed),spread=Value("spread",part.Spread);
@@ -105,7 +104,7 @@ namespace SurvivalLegend
                 }
                 else if(part.Kind==DeliveryKind.Rain)
                 {
-                    var rain=Catalog.Rain;int count=(int)Value("count",part.Count),waves=(int)Value("waves",part.Waves);
+                    var rain=Content.Rain;int count=(int)Value("count",part.Count),waves=(int)Value("waves",part.Waves);
                     Vector2 forward=Direction(angle),side=new Vector2(-forward.y,forward.x);
                     for(int wave=0;wave<waves;wave++)for(int n=0;n<count;n++)
                     {
@@ -129,3 +128,4 @@ namespace SurvivalLegend
         }
     }
 }
+

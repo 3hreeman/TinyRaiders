@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da359df8a65094949820a1534369a2ec, type: 3}
+  m_Name: bow-q
+  m_EditorClassIdentifier: SurvivalLegend.Runtime::SurvivalLegend.World.FxProfile
+  Id: bow-q
+  Prefab: {fileID: 8697774766190755719, guid: c2a0393b4be8c8249bd9cc4418103d16, type: 3}
+  Tint: {r: 0.7019608, g: 0.96862745, b: 0.5137255, a: 1}
+  Duration: 0.5
+  Tail: 0.6
+  Scale: 1
+  ScaleByRadius: 0
+  FollowPlayer: 1
+  SustainWhileBuff: 1

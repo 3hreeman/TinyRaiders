@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5fbe03142b61544b887429368a3d0d3, type: 3}
+  m_Name: archer
+  m_EditorClassIdentifier: SurvivalLegend.Runtime::SurvivalLegend.Data.CharacterDefinition
+  Id: archer
+  DisplayName: "\uAD81\uC218"
+  Subtitle: "\uAC70\uB9AC\uB97C \uC9C0\uBC30\uD558\uB294 \uD654\uC0B4"
+  Traits: "\uCCB4\uB825 \uBCF4\uD1B5 \xB7 \uC774\uB3D9 \uBE60\uB984 \xB7 \uACF5\uACA9
+    \uBE60\uB984"
+  Color: '#b3f783'
+  BasicKind: projectile
+  BasicWeapon: bow
+  Stats:
+    Hp: 120
+    Speed: 216
+    AttackSpeed: 1.7
+    Damage: 17.6
+    Range: 300
+    HealthRegen: 3
+    Lifesteal: 0
+    Armor: 8
+  Skills:
+  - {fileID: 11400000, guid: 4899793a5ee8ef64fb9b564d85561bbd, type: 2}
+  - {fileID: 11400000, guid: 58a96e3183e4f1e4fac29cacf89651f3, type: 2}
+  - {fileID: 11400000, guid: 9d470139e4d210d4dbd1059f4d2c1a6d, type: 2}
+  - {fileID: 11400000, guid: da2efb4f2715ffd4faceb4068b47a5a4, type: 2}
+  AnimationStride: 17
+  AttackDuration: 0.24
+  ChainRange: 0
+  ChainRatios: []

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09a6249175668304bbeb44716e2dabae, type: 3}
+  m_Name: swordsman-directions
+  m_EditorClassIdentifier: SurvivalLegend.Runtime::SurvivalLegend.World.DirectionalSpriteSet
+  frames:
+  - {fileID: 6030392081585223604, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: -9153335064226637430, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: 7352860318139329712, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: 783474298593150295, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: -5696623339316493565, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: -4307867540616399284, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: 5514927342369805061, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: -4758292032640709135, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: 2068921985177275715, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: -6146669124355498729, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: 8949950731347975394, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: 8154315363142073926, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: -6442265282821267337, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: 446838341121592767, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: -830997060649623326, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: 3089972059366926576, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: -5059493314971184973, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: 2124225798693601276, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: 814137907804909875, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: 2274537775801827223, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: -1465095516409907759, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: 5717462346802997466, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: 8826471491002000649, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: 7149919395958739246, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: 8520850093120365901, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: 7875542635563762680, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: 3995995264407711328, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: -7704272036180749702, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: -1503525915824278095, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: 1632344502091881165, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: 5200103857244741558, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: 6741888720321473948, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: 6099219989689801940, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: 3473771089464541182, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: -8587410694965515815, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: -521542987078848214, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: -8314283893568301807, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: -922469575521995112, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: -9835499435673508, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: 6066645129814260753, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: 7891976530346657646, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: -6893325005499222331, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: 1689230426191308383, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: 7551296648739890074, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: 9169266701058479348, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: -3903647109624303063, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: -4510779478406821860, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  - {fileID: 7158055430349177568, guid: eebaf35cb60e4ad99e3018501dffe88f, type: 3}
+  stride: 9
